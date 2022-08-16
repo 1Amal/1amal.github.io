@@ -4,32 +4,82 @@ This is the main CSS file
 
 *
 {
-background-color: #2b2a33;
+  background-color: #424146;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#nav_bar
+{
+  /* background-color:#2b2a33 ; */
+  padding:10px;
+  
+ }
+
+#nav_bar ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  /* background-color: #333; */
+}
+
+#nav_bar li
+{
+float:left;
+}
+
+#nav_bar li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 14px;
+  padding-right: 16px;
+  text-decoration: none;
+  font-size:1.5vw;
+}
+
+#nav_bar li a:hover
+{
+  background-color: #04AA6D;
+}
+
+#nav_bar a:active {
+  background-color: #0704aa;
 }
 
 #heading1
 {
-margin-top: 10px;
-margin-bottom: 10px;
-margin-right: 10px;
-margin-left: 10px;
-background-color: #2b2a33;
-color:#fbfbfe;
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #2b2a33;
+  color:#fbfbfe;
+  text-align: center;
+  font-size: 1.5vw;
 }
 
 #main_div 
 {
-margin-top: 40px;
-margin-bottom: 20px;
-margin-right: 20px;
-margin-left: 20px;
-font-family: Arial, Helvetica, sans-serif;
-background-color: #2b2a33;
-color:#fbfbfe;
-text-align:center;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  padding:15vw;
+  display:block;
+  /* background-color: #2b1f86; */
+  color:#fbfbfe;
+  text-align:center;
+  background-image: url('intro.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size:contain ;
+  font-size: 1.5vw;
+  
 }
 
 a:link {
@@ -55,3 +105,8 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+
+#portfolio
+{
+  color:#dce2f2
+}
