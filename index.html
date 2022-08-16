@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
@@ -14,6 +14,7 @@
     <ul>
         <li><a href="https://github.com/1Amal" target="_blank">GitHub Portfolio</a></li>
         <li><a href="https://amaldevelops.pythonanywhere.com/" target="_blank">Weather App</a></li>
+        <li> <a href="https://1amal.github.io/">Home</a></li>
 
     </ul>
 
@@ -25,7 +26,7 @@
 
 <div id="main_div">
 
-<p>Hi my name is Amal and I continuously improve myself by learning, designing and building stuff!<br>
+<p>Hi ! My name is Amal and I continuously improve myself by learning, designing and building stuff!<br>
 Currently I am learning HTML, CSS and JavaScript.<br>
 I also have a passion for Electronic circuit building, Linux, Computers, Finance and Writing.<br>
 I believe best way to learn anything is by doing, so all the projects hosted on my <a href="https://github.com/1Amal?tab=repositories" target="_blank">GitHub Portfolio</a> are projects that I have used to learn different programming concepts.<br>
@@ -33,6 +34,10 @@ Good example is rather than using WordPress to develop this portfolio site, I de
 This will enable me to develop my Front End development skills, keep my portfolio up to date and keep me accountable for my self learning :-)<br>
 
 Enjoy exploring my portfolio !</p>
+
+
+
+
         </div>
 
 <div id="portfolio">
@@ -62,12 +67,19 @@ Enjoy exploring my portfolio !</p>
     
     
     </div>
-    
 
-    
+<div id="footer">
+    <p>Time and date at page load is:<p id="time"></p></p> 
+    <p id="version"></p>
 
+         </div>
 
     </div>
+
+<script src="./mainJs.js"> </script>
+<body onload="time_function();"></body>
+<body onload="page_version();"></body>
+
 
 
 

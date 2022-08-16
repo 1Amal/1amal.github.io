@@ -12,7 +12,7 @@ This is the main CSS file
 #nav_bar
 {
   /* background-color:#2b2a33 ; */
-  padding:10px;
+  padding:15px;
   
  }
 
@@ -28,7 +28,7 @@ This is the main CSS file
 
 #nav_bar li
 {
-float:left;
+float:right;
 }
 
 #nav_bar li a 
@@ -79,7 +79,7 @@ float:left;
   background-attachment: fixed;  
   background-size:contain ;
   font-size: 1.5vw;
-  
+    
 }
 
 a:link {
@@ -108,5 +108,6 @@ a:link {
 
 #portfolio
 {
-  color:#dce2f2
+  color:#dce2f2;
+  font-size:1vw;
 }
