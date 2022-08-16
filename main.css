@@ -39,7 +39,7 @@ float:right;
   padding-top: 14px;
   padding-right: 16px;
   text-decoration: none;
-  font-size:1.5vw;
+  font-size:30px;
 }
 
 #nav_bar li a:hover
@@ -60,7 +60,7 @@ float:right;
   background-color: #2b2a33;
   color:#fbfbfe;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 30px;
 }
 
 #main_div 
@@ -78,7 +78,7 @@ float:right;
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size:contain ;
-  font-size: 1.5vw;
+  font-size: 20px;
     
 }
 
@@ -109,5 +109,5 @@ a:link {
 #portfolio
 {
   color:#dce2f2;
-  font-size:1vw;
+  font-size:15px;
 }
