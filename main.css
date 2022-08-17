@@ -69,7 +69,7 @@ float:right;
   margin-bottom: 1vw;
   margin-right: 1vw;
   margin-left: 1vw;
-  padding:15vw;
+  padding:5vw;
   display:block;
   /* background-color: #2b1f86; */
   color:#fbfbfe;
@@ -79,6 +79,9 @@ float:right;
   background-attachment: fixed;  
   background-size:contain ;
   font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50em; */
     
 }
 
@@ -110,4 +113,11 @@ a:link {
 {
   color:#dce2f2;
   font-size:15px;
+}
+
+#footer
+{
+/* background-color:red; */
+text-align:center;
+padding: 50px;
 }

@@ -4,7 +4,7 @@
     the main
         JavaScript file for 
             this portfolio website */
-
+// document.getElementById("time").innerHTML=Date();
 // Following function will show time at page load
 function time_function()
 {
@@ -14,5 +14,8 @@ function time_function()
 
 function page_version()
 {
-    document.getElementById("version").innerHTML="Last Updated on 16/08/2022"
+    document.getElementById("version").innerHTML="Content last updated on 17/08/2022"
 }
+
+time_function()
+page_version()
