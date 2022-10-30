@@ -70,15 +70,15 @@ float:left;
   margin-right: 1vw;
   margin-left: 1vw;
   padding:5vw;
- 
-  /* background-color: #2b1f86; */
-  color:#020211;
+  background-color: #000000;
+  color:#c7bcbc;
   text-align:center;
   /* background-image: url('intro.jpg'); */
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;  
   background-size:contain ;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 700;
   margin-left: auto;
   margin-right: auto;
   /* width: 50em; */
@@ -113,6 +113,18 @@ a:link {
 {
   color:black;
   font-size:15px;
+}
+
+#project-1
+{
+  /* background-color: red;  */
+  display:block;
+}
+
+#project-2
+{
+ /* background-color: blue;  */
+ display:block;
 }
 
 #footer
