@@ -54,6 +54,7 @@ float:left;
 
 #heading1
 {
+  display:block;
   margin-top: 1vw;
   margin-bottom: 1vw;
   margin-right: 1vw;
@@ -61,7 +62,7 @@ float:left;
   background-color: #2b2a33;
   color:#fbfbfe;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
 #intro_div 
