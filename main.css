@@ -27,7 +27,7 @@ This is the main CSS file
 
 #nav_bar li
 {
-float:right;
+float:left;
 }
 
 #nav_bar li a 
@@ -62,9 +62,9 @@ float:right;
   font-size: 30px;
 }
 
-#main_div 
+#intro_div 
 {
-  display:block;
+  display:flex;
   margin-top: 1vw;
   margin-bottom: 1vw;
   margin-right: 1vw;
@@ -72,9 +72,9 @@ float:right;
   padding:5vw;
  
   /* background-color: #2b1f86; */
-  color:#fbfbfe;
+  color:#020211;
   text-align:center;
-  background-image: url('intro.jpg');
+  /* background-image: url('intro.jpg'); */
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size:contain ;
