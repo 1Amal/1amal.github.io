@@ -14,7 +14,7 @@ function time_function()
 
 function page_version()
 {
-    document.getElementById("version").innerHTML="Content last updated on 16/10/2022"
+    document.getElementById("version").innerHTML="Content last updated on 30/10/2022"
 }
 
 time_function()
