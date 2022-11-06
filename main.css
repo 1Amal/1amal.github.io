@@ -126,7 +126,7 @@ a:link {
   display:block;
   margin-bottom: -1vw;
   padding:1px;
-  border-bottom: 0.5px dotted #504c4c;
+  /* border-bottom: 0.5px dotted #504c4c; */
 }
 
 #project-2
@@ -135,7 +135,7 @@ a:link {
  display:block;
  margin-top: 1vw;
  padding:1px;
- border-bottom: 0.5px dotted #504c4c;
+ border-bottom: 0.5px dotted #111111;
 }
 
 #project-3
