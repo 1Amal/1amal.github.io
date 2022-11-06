@@ -127,7 +127,6 @@ a:link {
   margin-bottom: -1vw;
   padding:1px;
   border-bottom: 0.5px dotted #504c4c;
-
 }
 
 #project-2
@@ -135,9 +134,17 @@ a:link {
  background-color: #e7e7e7; 
  display:block;
  margin-top: 1vw;
+ padding:1px;
+ border-bottom: 0.5px dotted #504c4c;
+}
+
+#project-3
+{
+ background-color: #e7e7e7; 
+ display:block;
+ margin-top: -1vw;
  border:0px;
  padding:1px;
-
 }
 
 #footer
