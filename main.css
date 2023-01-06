@@ -1,8 +1,7 @@
-/*Amal, 2022,
-This is the main CSS file 
+/*Amal Kariyawasam, 2023, Main  and Only CSS file 
 */
 
-*
+body
 {
   font-family: Arial, Helvetica, sans-serif;
 
@@ -78,9 +77,9 @@ float:left;
   color:#e7dddd;
   text-align:center;
   /* background-image: url('intro.jpg'); */
-  background-repeat: repeat;
+  /* background-repeat: repeat;
   background-attachment: fixed;  
-  background-size:contain ;
+  background-size:contain ; */
   font-size: 1.3em;
   font-weight: 700;
     
