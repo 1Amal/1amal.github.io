@@ -1,0 +1,165 @@
+/*Amal, 2022,
+This is the main CSS file 
+*/
+
+*
+{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#nav_bar
+{
+  /* background-color:#2b2a33 ; */
+  padding:1vw;
+  
+ }
+
+#nav_bar ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  /* background-color: #333; */
+}
+
+#nav_bar li
+{
+float:left;
+}
+
+#nav_bar li a 
+{
+  display: block;
+  color: black;
+  text-align: center;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  text-decoration: none;
+  font-size:1.4em;
+}
+
+#nav_bar li a:hover
+{
+  background-color: #15d48e;
+}
+
+#nav_bar a:active {
+  background-color: #0704aa;
+}
+
+#heading1
+{
+  display:block;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  padding:0.1vw;
+  background-color: #2b2a33;
+  color:#fbfbfe;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#intro_div 
+{
+  display:flex;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  padding:0.5vw;
+  background-color: #000000;
+  color:#e7dddd;
+  text-align:center;
+  /* background-image: url('intro.jpg'); */
+  background-repeat: repeat;
+  background-attachment: fixed;  
+  background-size:contain ;
+  font-size: 1.3em;
+  font-weight: 700;
+    
+}
+
+a:link {
+    color: #2997ff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #053c70;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #530bda;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #080863;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+#portfolio
+{
+  color:black;
+  font-size:1em;
+  border: #504c4c;
+  border-style: solid;
+  border-width: 0.2vw;
+
+}
+
+#project-1
+{
+  background-color: #e7e7e7; 
+  display:block;
+  margin-bottom: -1vw;
+  padding:1px;
+  /* border-bottom: 0.5px dotted #504c4c; */
+}
+
+#project-2
+{
+ background-color: #e7e7e7; 
+ display:block;
+ margin-top: 1vw;
+ padding:1px;
+ border-bottom: 0.5px dotted #111111;
+}
+
+#project-3
+{
+ background-color: #e7e7e7; 
+ display:block;
+ margin-top: -1vw;
+ border:0px;
+ padding:1px;
+}
+
+#project-4
+{
+ background-color: #e7e7e7; 
+ display:block;
+ margin-top: -1vw;
+ border:0px;
+ padding:1px;
+}
+
+#footer
+{
+text-align:center;
+padding: 2vw;
+display: block;
+background-color: #15d48e;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+    <!--
+        Concept, design and coding by Amal Kariyawasam, please refer website update date on the bottom of the rendered page, 
+        Update date can be changed by editing the mainjs.js JavaScript file.
+        
+        For future reference, what each HTML code is given with relevant weblinks for easy code maintainability.
+        
+        Tools used are as follows for future debug purposes 
+        Operating system this website developed on: Xbuntu / Ubuntu 22.04.1 LTS or higher (https://xubuntu.org) on Oracle VM Virtual Box 6.1 (https://www.virtualbox.org/)
+        Code Editor: Visual Studio code version 1.72 and higher (https://code.visualstudio.com/)
+        Version Control system: Git 2.38 and higher (https://git-scm.com/)| GitHub (https://github.com/1Amal)
+        Browsers tested on: Mozilla Firefox Version 106 and higher (https://www.mozilla.org/en-US/firefox/new/) | Google Chrome Version 107 and higher (https://www.google.com/intl/en_au/chrome/)
+        Hosting provider: GitHub Pages (https://pages.github.com/)
+    -->
+<html lang="en"> <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
+           The <html> HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. 
+           All other elements must be descendants of this element.
+       -->
+
+<head> <!--Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
+           The <head> HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
+       -->
+
+    <meta charset="UTF-8">
+    <!--Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+        The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements, 
+        like <base>, <link>, <script>, <style> or <title>
+
+    -->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <!--
+        Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
+        The browser's viewport is the area of the window in which web content can be seen. This is often not the same size as the rendered page, 
+        in which case the browser provides scrollbars for the user to scroll around and access all the content.
+        
+        A typical mobile-optimized site contains something like the following:
+        width: Controls the size of the viewport. It can be set to a specific number of pixels like width=600 or to the 
+        special value device-width, which is 100vw, or 100% of the viewport width. Minimum: 1. Maximum: 10000. Negative values: ignored.
+        
+        height: Controls the size of the viewport. It can be set to a specific number of pixels like height=400 or to the special 
+        value device-height, which is 100vh, or 100% of the viewport height. Minimum: 1. Maximum: 10000. Negative values: ignored.
+
+        initial-scale: Controls the zoom level when the page is first loaded. Minimum: 0.1. Maximum: 10. Default: 1. Negative values: ignored.
+
+        minimum-scale: Controls how much zoom out is allowed on the page. Minimum: 0.1. Maximum: 10. Default: 0.1. Negative values: ignored.
+        
+        maximum-scale: Controls how much zoom in is allowed on the page. Any value less than 3 fails accessibility. Minimum: 0.1. Maximum: 10. 
+        Default: 10. Negative values: ignored.
+
+        user-scalable: Controls whether zoom in and zoom out actions are allowed on the page. Valid values: 0, 1, yes, or no. Default: 1, 
+        which is the same as yes. Setting the value to 0, which is the same as no, is against Web Content Accessibility Guidelines (WCAG).
+    -->
+
+    <link rel="stylesheet" href="./main.css"> <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
+        The <link> HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, 
+        but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
+        
+        The <style> HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document 
+        containing the <style> element.
+    -->
+    <title>Amal Kariyawasam, Software Engineering Portfolio</title> <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
+        The <title> HTML element defines the document's title that is shown in a Browser's title bar or a page's tab. 
+        It only contains text; tags within the element are ignored.
+
+    -->
+</head>
+
+<body> <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
+       The <body> HTML element represents the content of an HTML document. There can be only one <body> element in a document.
+    -->
+
+
+<div id="nav_bar"> <!-- This DIV contains the navigation bar-->
+    <ul>
+        <li><a href="https://amaldevelops.pythonanywhere.com/" target="_blank">Weather App |</a></li>
+        <li><a href="https://1amal.github.io/engineering-reference/" target="_blank">Engineering Reference |</a></li>
+        <li><a href="https://github.com/1Amal" target="_blank">GitHub |</a></li>
+        <li><a href="https://github.com/1Amal/1amal.github.io" target="_blank">Portfolio Source Code </a></li>
+
+    </ul>
+
+</div>
+
+<div id="heading1">
+<h1>Amal's Software Engineering portfolio !</h1>
+</div>
+
+<div id="intro_div">
+
+<p>Hi, my name is Amal and I continuously improve myself by learning, designing and building stuff !
+Currently I am learning JavaScript, CSS, HTML, Linux, software development best practices and core concepts by doing software projects and learning via <a href="https://www.theodinproject.com/paths" target="_blank">The Odin Project.</a>
+I also have a passion for Electronic circuit building, Linux, Computers, Finance and Writing.
+I believe best way to learn any subject or topic is by doing, so all the projects hosted on my <a href="https://github.com/1Amal?tab=repositories" target="_blank">GitHub Portfolio</a> are projects that 
+I have used to learn different programming concepts.
+A good demonstration is rather than using WordPress or a template to develop this portfolio site, I decided to host this Portfolio website 
+on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, using plain HTML, CSS and JavaScript. 
+You can check the code for this website by <a href="https://github.com/1Amal/1amal.github.io" target="_blank">clicking here</a>
+This will enable me to develop my Front End development skills, learn Git, Visual Studio Code, other software development tools while keeping my portfolio up to date.
+As a strong believer in practically applying what I learn this will also keep me accountable for my self learning :-)<br>
+</p>
+
+</div>
+
+<div id="portfolio">
+    <h1>Project Highlights</h1>
+    <p>Following are some of the highlights of my projects <a href="https://github.com/1Amal?tab=repositories" target="_blank">For full portfolio 
+        please visit GitHub</a></p>
+    
+    <div id="project-1">
+       <h2>Weather App using Python/Flask, OpenWeatherMap API  
+        <a href="https://amaldevelops.pythonanywhere.com/" target="_blank"> | Click here for the WebApp</a>
+        <a href="https://github.com/1Amal/Python_Flask_Weather_App" target="_blank">| Click here for Source Code</a>
+        </h2>
+        
+        Front end code for this WebApp is written in;
+        <ul>
+        <li>HTML (HyperText Markup Language): Used to structure the content and final result from OpenWeather API</li>
+        <li>CSS (Cascading Style Sheets):  Used to style the HTML webpage</li>
+        <li>Jinja template engine:  Used to parse Python variables and the end result will render in HTML for presentation in a web browser</li>
+            </ul>
+        Back end code for this WebApp is written in;
+    
+        <ul>
+        <li>Python: Used to make API calls to OpenWeather API and process the received JSON data</li>
+        <li>Flask: Used as a lightweight WSGI web application framework</li>
+        <li>OpenWeatherMap API: Used to pass location requests and receive Weather data in JSON format</li>
+        <li>Python Anywhere: Used to host the WebApp </li>
+            </ul>
+    </div>
+    <div id="project-2">
+        <h2>Software Engineering, Electronics, Telecommunications, Internet Engineering reference database 
+            <a href="https://1amal.github.io/engineering-reference/" target="_blank">| Click here for Live version</a>
+            | <a href="https://github.com/1Amal/engineering-reference" target="_blank">Click here for Source Code</a>
+        </h2>
+        
+        <p>For software developers it is vital to keep a handy reference source which is available quickly, efficiently and from any location.</br>
+           Before this reference repository was finally hosted on GitHub several methods were used to achieve this goal as follows.
+           <ul>
+                <li>First iteration was to put reference manuals and important information I found online into a Microsoft Word document and was saved in a folder in the local PC. 
+                    Problem with this method was it was only available when working on the PC. 
+                </li>
+                <li> To solve this problem they were all uploaded to my Google Drive. Problem with this was updating the reference manuals and data was very cumbersome.</li>
+                <li>Hence it was decided to collate all the information and to upload to GitHub so it can be accessed from anywhere, can be easily accessed, can be updated quite easily 
+                    and anyone who needs this data is freely available for access. </li>
+           </ul>           
+           
+          
+           
+        </p>
+
+    </div>
+
+    <div id="project-3">
+        <h2>Company Website for DirectCool, Melbourne  | 
+            <a href="https://1amal.github.io/website-www.directcool.com.au/" target="_blank"> Click here for Live version</a> |
+            <a href="https://github.com/1Amal/website-www.directcool.com.au" target="_blank">Click here for Source Code</a>
+        </h2>
+        <p>Website designed and built for authorized service centre for LG Electronics, Samsung, Electrolux/Kelvinator/Westinghouse & Teco Australia
+           Unfortunately company no longer hosts this version on companies Web server. However you can access a live version hosted on my GitHub Pages.
+        </p>
+        <p>Tech Stack;</p>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS / Bootstrap</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <div id="project-4">
+        <h2>Website developed for local business in Melbourne
+            | <a href="https://salonlasanthi.com/" target="_blank">Click here for Live version</a>
+            | <a href="https://github.com/1Amal/website-www.salonlasanthi.com" target="_blank">Click here for Source Code</a>
+        </h2>
+        <p>Website designed and built for a local Hair and Beauty saloon in Melbourne. </p>
+
+        <p>Tech Stack;</p>
+
+        <ul>
+            <li>WordPress</li>
+            <li>Hosting provider: WordPress.com with a custom domain</li>
+
+        </ul>
+
+    </div>
+    
+</div>
+
+<div id="footer">
+    <p>Page loaded on:<p id="time"></p></p>
+    <p id="version"></p>
+
+</div>
+
+
+<script src="./mainJs.js"> </script>
+
+
+</body>
+</html>
