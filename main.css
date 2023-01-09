@@ -119,7 +119,7 @@ a:active {
 {
   
   display: flex; /*Enable flexbox layout */
-  flex-direction: column;
+  flex-direction: row;
   /* flex-wrap:wrap; */
   color:black;
   font-size:1em;
@@ -129,40 +129,17 @@ a:active {
 
 }
 
-.project-1
+.project-1, .project-2, .project-3, .project-4
 {
-  background-color: #e7e7e7; 
-  display:block;
+  background-color: #E5E7EB; 
+  display:flex;
+  flex-direction: column;
   margin-bottom: -1vw;
   padding:1px;
-  /* border-bottom: 0.5px dotted #504c4c; */
-}
-
-.project-2
-{
- background-color: #e7e7e7; 
- display:block;
- margin-top: 1vw;
- padding:1px;
- border-bottom: 0.5px dotted #111111;
-}
-
-.project-3
-{
- background-color: #e7e7e7; 
- display:block;
- margin-top: -1vw;
- border:0px;
- padding:1px;
-}
-
-.project-4
-{
- background-color: #e7e7e7; 
- display:block;
- margin-top: -1vw;
- border:0px;
- padding:1px;
+  border-radius: 25px;
+  border-color: #3882f6;
+  border-width: 0.2vw;
+  border-style: solid;
 }
 
 .footer
