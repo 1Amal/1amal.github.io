@@ -60,7 +60,7 @@ float:left;
   background-color: #0704aa;
 }
 
-#heading1
+h1
 {
   display: flex; /*Enable flexbox layout */
   justify-content: center; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. 
@@ -73,26 +73,19 @@ float:left;
   background-color: #1F2937;
   color:#fbfbfe;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 2.8em;
 }
 
-#intro_div 
+
+#intro
 {
   display: flex; /*Enable flexbox layout */
   /* align-items: center; */
+  flex-direction: column;
   justify-content: center;
-  margin-top: 0.5vw;
-  margin-bottom: 0.5vw;
-  margin-right: 0.5vw;
-  margin-left: 0.5vw;
   padding:0.5vw;
   background-color: #1F2937;
   color:#e7dddd;
-
-  /* background-image: url('intro.jpg'); */
-  /* background-repeat: repeat;
-  background-attachment: fixed;  
-  background-size:contain ; */
   font-size: 1.3em;
   font-weight: 700;
     
