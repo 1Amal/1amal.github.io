@@ -82,6 +82,7 @@ float:left;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
+  background-color: #E5E7EB;
 }
 
 .project-intro p {
@@ -92,6 +93,8 @@ float:left;
 .project-intro h1 {
   justify-content: flex-start;
   padding:5px;
+  background-color: #E5E7EB;
+  color:#1F2937
 }
 
 .portfolio
