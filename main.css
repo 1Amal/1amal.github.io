@@ -19,7 +19,7 @@ body
   padding:1vw;
   display: flex; /*Enable flexbox layout */
   flex-direction: row;
-  justify-content: flex-end; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. 
+  justify-content: center; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. 
   It also exerts some control over the alignment of items when they overflow the line. */
  }
 
@@ -44,7 +44,7 @@ float:left;
   padding-left: 0.5vw;
   padding-right: 0.5vw;
   text-decoration: none;
-  font-size:1.4em;
+  font-size:2em;
 }
 
 .nav-bar li a:hover
@@ -62,7 +62,6 @@ float:left;
 .intro
 {
   display: flex; /*Enable flexbox layout */
-  /* align-items: center; */
   flex-direction: column;
   justify-content: center;
   padding:0.5vw;
@@ -88,11 +87,7 @@ float:left;
   justify-content: center;
   flex-wrap:wrap;
   column-gap: 10px;
-  /* flex:1; */
-    /* width:500px; */
-/* flex-grow: 1;
-flex-shrink: 0; */
-  
+ 
 }
 
 .project-intro {
