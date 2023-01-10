@@ -9,9 +9,12 @@ body
   margin: 0; /*Set the margin to 0 */
   min-height: 100vh; /* The min-width CSS property sets the minimum width of an element. 
   It prevents the used value of the width property from becoming smaller than the value specified for min-width. */
-
-
 }
+.body {
+  flex: 1;
+  display: flex;
+}
+
 /* ********** Start of code for Navigation Bar **********  */
 .nav-bar
 {
@@ -22,6 +25,7 @@ body
   justify-content: space-between; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. 
   It also exerts some control over the alignment of items when they overflow the line. */
   flex-wrap: wrap;
+  flex-shrink: 0;
 
  }
 
@@ -74,33 +78,44 @@ float:left;
     
 }
 
+.project-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.project-intro p {
+  font-size: 1.5em;
+  padding:5px;
+}
+
+.project-intro h1 {
+  justify-content: flex-start;
+  padding:5px;
+}
 
 .portfolio
 {
   
   display: flex; /*Enable flexbox layout */
   flex-direction: row;
-  color:black;
-  font-size:1em;
-  border: #E5E7EB;
-  border-style: solid;
-  border-width: 0.2vw;
-  align-items: center;
-  justify-content: center;
   flex-wrap:wrap;
-  column-gap: 10px;
- 
-}
-
-.project-intro {
-  display: flex;
-  flex-direction: column;
+  flex-basis: 0;
+  flex:1;
+  column-gap: 15px;
+  color:black;
+  font-size:1.2em;
+  row-gap: 15px;
+  justify-content:baseline;
+  align-items:stretch;
+  
 
 }
 
 .project-1, .project-2, .project-3, .project-4, .project-5
 {
   display:flex;
+  /* flex-wrap: wrap; */
   flex-direction: column;
   margin-bottom: -1vw;
   padding:5px;
@@ -109,7 +124,8 @@ float:left;
   border-color: #3882f6;
   border-width: 0.2vw;
   border-style: solid;
-  width:50em;
+  width:45vh;
+  
 }
 
 .footer
@@ -157,6 +173,7 @@ h1
   color:#fbfbfe;
   text-align: center;
   font-size: 2.5em;
+  margin:0px;
 }
 
 p{
