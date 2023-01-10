@@ -81,17 +81,18 @@ float:left;
 .project-intro {
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  /* justify-content: stretch; */
   background-color: #E5E7EB;
 }
 
 .project-intro p {
   font-size: 1.5em;
   padding:5px;
+ text-align: center;
 }
 
 .project-intro h1 {
-  justify-content: flex-start;
+  justify-content: center;
   padding:5px;
   background-color: #E5E7EB;
   color:#1F2937
