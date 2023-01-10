@@ -119,7 +119,7 @@ float:left;
 .project-1, .project-2, .project-3, .project-4, .project-5
 {
   display:flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   flex-direction: column;
   margin-bottom: -1vw;
   padding:5px;
@@ -128,7 +128,7 @@ float:left;
   border-color: #3882f6;
   border-width: 0.2vw;
   border-style: solid;
-  width:45vh;
+  width:60vh;
   
 }
 
