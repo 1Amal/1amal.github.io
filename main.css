@@ -129,19 +129,19 @@ a:link {
 }
 
 a:visited {
-  color: #053c70;
+  color: #027a50;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: #530bda;
+  color: #7940e3;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: #080863;
+  color: #086342;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -153,15 +153,10 @@ h1
   display: flex; /*Enable flexbox layout */
   justify-content: center; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. 
   It also exerts some control over the alignment of items when they overflow the line. */
-  margin-top: 0.5vw;
-  margin-bottom: 0.5vw;
-  margin-right: 0.5vw;
-  margin-left: 0.5vw;
-  padding:0.1vw;
   background-color: #1F2937;
   color:#fbfbfe;
   text-align: center;
-  font-size: 2.8em;
+  font-size: 2.5em;
 }
 
 p{
