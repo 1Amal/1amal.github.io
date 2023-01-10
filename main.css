@@ -19,8 +19,10 @@ body
   padding:1vw;
   display: flex; /*Enable flexbox layout */
   flex-direction: row;
-  justify-content: center; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. 
+  justify-content: space-between; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. 
   It also exerts some control over the alignment of items when they overflow the line. */
+  flex-wrap: wrap;
+
  }
 
 .nav-bar ul
@@ -160,4 +162,8 @@ h1
   color:#fbfbfe;
   text-align: center;
   font-size: 2.8em;
+}
+
+p{
+  margin:0px;
 }
