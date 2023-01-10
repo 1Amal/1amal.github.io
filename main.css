@@ -98,7 +98,7 @@ float:left;
 
 }
 
-.project-1, .project-2, .project-3, .project-4
+.project-1, .project-2, .project-3, .project-4, .project-5
 {
   display:flex;
   flex-direction: column;
