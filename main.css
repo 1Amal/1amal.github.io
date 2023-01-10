@@ -70,7 +70,7 @@ float:left;
   display: flex; /*Enable flexbox layout */
   flex-direction: column;
   justify-content: center;
-  padding:0.5vw;
+  padding:2em;
   background-color: #1F2937;
   color:#e7dddd;
   font-size: 1.3em;
@@ -81,21 +81,21 @@ float:left;
 .project-intro {
   display: flex;
   flex-direction: column;
-  /* justify-content: stretch; */
+  padding:2em;
   background-color: #E5E7EB;
 }
 
 .project-intro p {
   font-size: 1.5em;
-  padding:5px;
+  
  text-align: center;
 }
 
 .project-intro h1 {
   justify-content: center;
-  padding:5px;
   background-color: #E5E7EB;
-  color:#1F2937
+  color:#1F2937;
+  padding:0.5em;
 }
 
 .portfolio
