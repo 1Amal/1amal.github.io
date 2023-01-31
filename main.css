@@ -87,8 +87,7 @@ float:left;
 
 .project-intro p {
   font-size: 1.5em;
-  
- text-align: center;
+  text-align: center;
 }
 
 .project-intro h1 {
@@ -113,7 +112,6 @@ float:left;
   justify-content:baseline;
   align-items:stretch;
   
-
 }
 
 .project-1, .project-2, .project-3, .project-4, .project-5
