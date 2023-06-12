@@ -1,20 +1,17 @@
-//Amal Kariyawasam, 2022
+//Amal Kariyawasam, 2023
 
-/* This is
-    the main
-        JavaScript file for 
-            this portfolio website */
-// document.getElementById("time").innerHTML=Date();
-// Following function will show time at page load
+/* This is the main JavaScript file for this portfolio website */
+
 function time_function()
 {
-    document.getElementById("time").innerHTML=Date();
+    document.getElementById("time").textContent=Date();
+
 
 }
 
 function page_version()
 {
-    document.getElementById("version").innerHTML="Content last updated on 10/01/2023"
+    document.getElementById("version").textContent="Page updated on: 12/06/2023"
 }
 
 time_function()
