@@ -1,74 +1,19 @@
 <!DOCTYPE html>
-    <!--
-        Concept, design and coding by Amal Kariyawasam, please refer website update date on the bottom of the rendered page, 
-        Update date can be changed by editing the mainjs.js JavaScript file.
-        
-        For future reference, what each HTML code is given with relevant weblinks for easy code maintainability.
-        
-        Tools used are as follows for future debug purposes 
-        Operating system this website developed on: Xbuntu / Ubuntu 22.04.1 LTS or higher (https://xubuntu.org) on Oracle VM Virtual Box 6.1 (https://www.virtualbox.org/)
-        Code Editor: Visual Studio code version 1.72 and higher (https://code.visualstudio.com/)
-        Version Control system: Git 2.38 and higher (https://git-scm.com/)| GitHub (https://github.com/1Amal)
-        Browsers tested on: Mozilla Firefox Version 106 and higher (https://www.mozilla.org/en-US/firefox/new/) | Google Chrome Version 107 and higher (https://www.google.com/intl/en_au/chrome/)
-        Hosting provider: GitHub Pages (https://pages.github.com/)
-    -->
-<html lang="en"> <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
-           The <html> HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. 
-           All other elements must be descendants of this element.
-       -->
+<!-- Concept, design and coding by Amal Kariyawasam  -->
+<html lang="en"> 
 
-<head> <!--Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
-           The <head> HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
-       -->
+<head> 
 
     <meta charset="UTF-8">
-    <!--Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-        The <meta> HTML element represents metadata that cannot be represented by other HTML meta-related elements, 
-        like <base>, <link>, <script>, <style> or <title>
 
-    -->
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-    <!--
-        Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
-        The browser's viewport is the area of the window in which web content can be seen. This is often not the same size as the rendered page, 
-        in which case the browser provides scrollbars for the user to scroll around and access all the content.
-        
-        A typical mobile-optimized site contains something like the following:
-        width: Controls the size of the viewport. It can be set to a specific number of pixels like width=600 or to the 
-        special value device-width, which is 100vw, or 100% of the viewport width. Minimum: 1. Maximum: 10000. Negative values: ignored.
-        
-        height: Controls the size of the viewport. It can be set to a specific number of pixels like height=400 or to the special 
-        value device-height, which is 100vh, or 100% of the viewport height. Minimum: 1. Maximum: 10000. Negative values: ignored.
 
-        initial-scale: Controls the zoom level when the page is first loaded. Minimum: 0.1. Maximum: 10. Default: 1. Negative values: ignored.
 
-        minimum-scale: Controls how much zoom out is allowed on the page. Minimum: 0.1. Maximum: 10. Default: 0.1. Negative values: ignored.
-        
-        maximum-scale: Controls how much zoom in is allowed on the page. Any value less than 3 fails accessibility. Minimum: 0.1. Maximum: 10. 
-        Default: 10. Negative values: ignored.
-
-        user-scalable: Controls whether zoom in and zoom out actions are allowed on the page. Valid values: 0, 1, yes, or no. Default: 1, 
-        which is the same as yes. Setting the value to 0, which is the same as no, is against Web Content Accessibility Guidelines (WCAG).
-    -->
-
-    <link rel="stylesheet" href="./main.css"> <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
-        The <link> HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, 
-        but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
-        
-        The <style> HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document 
-        containing the <style> element.
-    -->
-    <title>Amal Kariyawasam, Software Engineering Portfolio</title> <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
-        The <title> HTML element defines the document's title that is shown in a Browser's title bar or a page's tab. 
-        It only contains text; tags within the element are ignored.
-
-    -->
+    <link rel="stylesheet" href="./main.css"> 
+    <title>Amal Kariyawasam, Software Engineering Portfolio</title> 
 </head>
 
-<body> <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
-       The <body> HTML element represents the content of an HTML document. There can be only one <body> element in a document.
-    -->
-
+<body> 
 
 <div class="nav-bar"> <!-- This DIV contains the navigation bar-->
     <ul>
