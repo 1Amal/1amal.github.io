@@ -11,7 +11,7 @@ function time_function()
 
 function page_version()
 {
-    document.getElementById("version").textContent="Website updated on: 13/06/2023"
+    document.getElementById("version").textContent="Website updated on: 24/12/2023"
 }
 
 time_function()
