@@ -16,7 +16,7 @@
   \**********************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/*Amal Kariyawasam, 2023, Only one CSS file is used for the portfolio site ! \n*/\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  display: flex; /*Enable flexbox layout */\n  flex-direction: column; /* Set flexbox direction to column */\n  margin: 0; /*Set the margin to 0 */\n  min-height: 100vh; /* The min-width CSS property sets the minimum width of an element. \n  It prevents the used value of the width property from becoming smaller than the value specified for min-width. */\n}\n.body {\n  flex: 1;\n  display: flex;\n}\n\n/* ********** Start of code for Navigation Bar **********  */\n.nav-bar {\n  background-color: #1f2937;\n  padding: 1vw;\n  display: flex; /*Enable flexbox layout */\n  flex-direction: row;\n  justify-content: space-between; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. \n  It also exerts some control over the alignment of items when they overflow the line. */\n  flex-wrap: wrap;\n  flex-shrink: 0;\n}\n\n.nav-bar ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nav-bar li {\n  float: left;\n}\n\n.nav-bar li a {\n  color: #f9faf8;\n  padding-top: 0.5vw;\n  padding-bottom: 0.5vw;\n  padding-left: 0.5vw;\n  padding-right: 0.5vw;\n  text-decoration: none;\n  font-size: 2rem;\n}\n\n.nav-bar li a:hover {\n  background-color: #15d48e;\n}\n\n.nav-bar a:active {\n  background-color: #0704aa;\n}\n\n/* ********** End of code for Navigation Bar **********  */\n\n.intro {\n  display: flex; /*Enable flexbox layout */\n  flex-direction: column;\n  justify-content: center;\n  padding: 2em;\n  background-color: #1f2937;\n  color: #e7dddd;\n  font-size: 1.3rem;\n  font-weight: 700;\n}\n\n.project-intro {\n  display: flex;\n  flex-direction: column;\n  padding: 2em;\n  background-color: #e5e7eb;\n}\n\n.project-intro p {\n  font-size: 1.5rem;\n  text-align: center;\n}\n\n.project-intro h1 {\n  justify-content: center;\n  background-color: #e5e7eb;\n  color: #1f2937;\n  padding: 0.5em;\n}\n\n.portfolio {\n  display: flex; /*Enable flexbox layout */\n  flex-direction: row;\n  flex-wrap: wrap;\n  flex-basis: 0;\n  flex: 1;\n  column-gap: 15px;\n  color: black;\n  font-size: 1.2rem;\n  row-gap: 15px;\n  justify-content: baseline;\n  align-items: stretch;\n}\n\n.project-1,\n.project-2,\n.project-3,\n.project-4,\n.project-5,\n.project-6 {\n  display: flex;\n  flex-wrap: wrap;\n  flex-direction: column;\n  margin-bottom: -1vw;\n  padding: 5px;\n  margin: 10px;\n  border-radius: 25px;\n  border-color: #3882f6;\n  border-width: 0.2vw;\n  border-style: solid;\n  width: 60vh;\n}\n\n.footer {\n  text-align: center;\n  padding: 2vw;\n  display: block;\n  background-color: #1f2937;\n  color: #fbfbfe;\n}\n\n/* ********** Start of code for Links **********  */\na:link {\n  color: #2997ff;\n  background-color: transparent;\n  text-decoration: none;\n}\n\na:visited {\n  color: #027a50;\n  background-color: transparent;\n  text-decoration: none;\n}\n\na:hover {\n  color: #7940e3;\n  background-color: transparent;\n  text-decoration: underline;\n}\n\na:active {\n  color: #086342;\n  background-color: transparent;\n  text-decoration: underline;\n}\n\n/* ********** End of code for Links **********  */\n\nh1 {\n  display: flex; /*Enable flexbox layout */\n  justify-content: center; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. \n  It also exerts some control over the alignment of items when they overflow the line. */\n  background-color: #1f2937;\n  color: #fbfbfe;\n  text-align: center;\n  font-size: 2.5rem;\n  margin: 0px;\n}\n\np {\n  margin: 0px;\n}\n\n.cpdCompleted {\n  color: #0aa86e;\n  font-size: 1.3rem;\n}\n\n.cpdPending {\n  color: #d9680b;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webdevgithubprojecttemplate/./src/mainStyleSheet.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./resources/OpenSans-Regular.ttf */ \"./src/resources/OpenSans-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/*Amal Kariyawasam, 2023, Only one CSS file is used for the portfolio site ! \n*/\n\n@font-face {\n  font-family: \"openSansRegular\";\n  src:url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n  font-weight: normal;\n  font-style: normal;\n}\n\nbody {\n  font-family: \"openSansRegular\";\n  display: flex; /*Enable flexbox layout */\n  flex-direction: column; /* Set flexbox direction to column */\n  margin: 0; /*Set the margin to 0 */\n  min-height: 100vh; /* The min-width CSS property sets the minimum width of an element. \n  It prevents the used value of the width property from becoming smaller than the value specified for min-width. */\n}\n/* .body {\n  flex: 1;\n  display: flex;\n} */\n\n/* ********** Start of code for Navigation Bar **********  */\n.nav-bar {\n  background-color: #1f2937;\n  padding: 1vw;\n  display: flex; /*Enable flexbox layout */\n  flex-direction: row;\n  justify-content: space-between; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. \n  It also exerts some control over the alignment of items when they overflow the line. */\n  flex-wrap: wrap;\n  flex-shrink: 0;\n}\n\n.nav-bar ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n}\n\n.nav-bar li {\n  float: left;\n}\n\n.nav-bar li a {\n  color: #f9faf8;\n  padding-top: 0.5vw;\n  padding-bottom: 0.5vw;\n  padding-left: 0.5vw;\n  padding-right: 0.5vw;\n  text-decoration: none;\n  font-size: 2rem;\n}\n\n.nav-bar li a:hover {\n  background-color: #15d48e;\n}\n\n.nav-bar a:active {\n  background-color: #0704aa;\n}\n\n/* ********** End of code for Navigation Bar **********  */\n\n.intro {\n  display: flex; /*Enable flexbox layout */\n  flex-direction: column;\n  justify-content: center;\n  padding: 2em;\n  background-color: #1f2937;\n  color: #e7dddd;\n  font-size: 1.3rem;\n  font-weight: 700;\n}\n\n.project-intro {\n  display: flex;\n  flex-direction: column;\n  padding: 2em;\n  background-color: #e5e7eb;\n}\n\n.project-intro p {\n  font-size: 1.5rem;\n  text-align: center;\n}\n\n.project-intro h1 {\n  justify-content: center;\n  background-color: #e5e7eb;\n  color: #1f2937;\n  padding: 0.5em;\n}\n\n.portfolio {\n  display: flex; /*Enable flexbox layout */\n  flex-direction: row;\n  flex-wrap: wrap;\n  flex-basis: 0;\n  flex: 1;\n  column-gap: 15px;\n  color: black;\n  font-size: 1.2rem;\n  row-gap: 15px;\n  justify-content: baseline;\n  align-items: stretch;\n}\n\n.project-1,\n.project-2,\n.project-3,\n.project-4,\n.project-5,\n.project-6 {\n  display: flex;\n  flex-wrap: wrap;\n  flex-direction: column;\n  margin-bottom: -1vw;\n  padding: 5px;\n  margin: 10px;\n  border-radius: 25px;\n  border-color: #3882f6;\n  border-width: 0.2vw;\n  border-style: solid;\n  width: 60vh;\n}\n\n.footer {\n  text-align: center;\n  padding: 2vw;\n  display: block;\n  background-color: #1f2937;\n  color: #fbfbfe;\n}\n\n/* ********** Start of code for Links **********  */\na:link {\n  color: #2997ff;\n  background-color: transparent;\n  text-decoration: none;\n}\n\na:visited {\n  color: #027a50;\n  background-color: transparent;\n  text-decoration: none;\n}\n\na:hover {\n  color: #7940e3;\n  background-color: transparent;\n  text-decoration: underline;\n}\n\na:active {\n  color: #086342;\n  background-color: transparent;\n  text-decoration: underline;\n}\n\n/* ********** End of code for Links **********  */\n\nh1 {\n  display: flex; /*Enable flexbox layout */\n  justify-content: center; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. \n  It also exerts some control over the alignment of items when they overflow the line. */\n  background-color: #1f2937;\n  color: #fbfbfe;\n  text-align: center;\n  font-size: 2.5rem;\n  margin: 0px;\n}\n\np {\n  margin: 0px;\n}\n\n.cpdCompleted {\n  color: #0aa86e;\n  font-size: 1.3rem;\n}\n\n.cpdPending {\n  color: #d9680b;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webdevgithubprojecttemplate/./src/mainStyleSheet.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://webdevgithubprojecttemplate/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://webdevgithubprojecttemplate/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -118,6 +128,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mainStyleSheet_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mainStyleSheet.css */ \"./src/mainStyleSheet.css\");\n//This is the main JavaScript file\n\n//ES Module Imports\n//Following will import the CSS file used to style the project\n\n\nfunction time_function() {\n  document.getElementById(\"time\").textContent = Date();\n}\n\nfunction page_version() {\n  document.getElementById(\"version\").textContent =\n    \"Website updated on: 24/12/2023\";\n}\n\ntime_function();\npage_version();\n\n\n//# sourceURL=webpack://webdevgithubprojecttemplate/./src/mainJavaScript.js?");
 
+/***/ }),
+
+/***/ "./src/resources/OpenSans-Regular.ttf":
+/*!********************************************!*\
+  !*** ./src/resources/OpenSans-Regular.ttf ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b8cc747a58ffa52b7ff9.ttf\";\n\n//# sourceURL=webpack://webdevgithubprojecttemplate/./src/resources/OpenSans-Regular.ttf?");
+
 /***/ })
 
 /******/ 	});
@@ -146,6 +166,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mai
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -171,6 +194,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mai
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +220,55 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mai
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
