@@ -151,24 +151,42 @@ a:active {
   column-gap: 1.5rem;
 
   font-size: 1.5rem;
-  row-gap: 1.5rem;
+  row-gap: 1rem;
   justify-content: baseline;
   align-items: stretch;
   color: var(--colourProjectText);
 }
 
 .projectDiv {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: grid;
+  grid-template: 1fr 2fr 3fr / 1fr 1fr;
+  column-gap:0.5rem;
+  row-gap:0.5rem;
+  /* flex-wrap: wrap;
+  flex-direction: column; */
   margin-bottom: 1rem;
   padding: 0.5rem;
   margin: 1rem;
   border-radius: 25px;
   border-width: 0.5rem;
   border-style: solid;
-  width: 30rem;
+  /* width: 10rem; */
   border-color: var(--colourBorderProjects);
+}
+
+.projectPreviewImageDiv
+{
+grid-area:1/1/2/3;
+}
+
+.projectDescription
+{
+
+}
+
+.projectTechStack
+{
+
 }
 
 .footerDiv {
@@ -192,6 +210,12 @@ a:active {
 .svgLogos {
   height: 2rem;
   width: 2rem;
+}
+
+.projectScreenShotImage
+{
+  height:5rem;
+  width:10rem;
 }
 
 .techLogosDiv {
