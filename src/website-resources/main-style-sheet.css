@@ -2,8 +2,31 @@
 Last Update: 23/08/2024 
 */
 
-html {
+:root {
   font-size: medium;
+  /* Colour Scheme */
+  /* HTML Main Element Colours */
+  --colourRootBackground: #1f2937;
+  --colourH1Heading: #000000;
+  --colourH2Heading: #ffffff;
+  --colourH3Heading: #ffffff;
+  --colourPParagraph: #1f2937;
+  --colourALinks: #2997ff;
+  --colourALinksActive: #13a570;
+  --colourALinksVisited: #027a50;
+  --colourALinksHover: #7940e3;
+  /* Different Div Section Colours */
+  --colourIntroductionBackground: #c30808;
+  --colourIntroductionText: #ffffff;
+  --colourProjectBackground: #ffffff;
+  --colourProjectText: #110000;
+  --colourFooterBackground: #1f2937;
+  --colourFooterText: #ffffff;
+  --colourMainMenuBackground: #235bab;
+  --colourMainMenuText: #ffffff;
+  --colourBorderProjects: #5e50e2;
+  --colourCPDPending: #d68418;
+  --colourCPDCompleted: #13a570;
 }
 
 @font-face {
@@ -14,21 +37,21 @@ html {
 }
 
 body {
-  font-family: "openSansRegular";
   display: flex;
   flex-direction: column;
-  margin: 1rem;
-  /*  min-height: 100vh; The min-width CSS property sets the minimum width of an element. 
+  margin: 0rem;
+  font-family: "openSansRegular";
+  /*  min-height: 100vh;   The min-width CSS property sets the minimum width of an element. 
   It prevents the used value of the width property from becoming smaller than the value specified for min-width. */
 }
 
 h1 {
-  display: flex;
-  justify-content: center; /*This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. 
+  /* display: flex; */
+  /* justify-content: center; This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. 
   It also exerts some control over the alignment of items when they overflow the line. */
-  background-color: #1f2937;
-  color: #fbfbfe;
-  text-align: center;
+  background-color: var(--colourRootBackground);
+  color: var(--colourH1Heading);
+  /* text-align: center; */
   font-size: 2.5rem;
   margin: 0rem;
 }
@@ -39,32 +62,36 @@ p {
 }
 
 a:link {
-  color: #2997ff;
   background-color: transparent;
   text-decoration: none;
+  color: var(--colourALinks);
 }
 
 a:visited {
-  color: #027a50;
   background-color: transparent;
   text-decoration: none;
+  color: var(--colourALinksVisited);
 }
 
 a:hover {
-  color: #7940e3;
   background-color: transparent;
   text-decoration: underline;
+  color: var(--colourALinksHover);
 }
 
 a:active {
-  color: #086342;
   background-color: transparent;
   text-decoration: underline;
+  color: var(--colourALinksActive);
+}
+
+.mainWebsiteGridContainer {
+  display: grid;
+  grid-template: 0.5fr 2fr 8fr 1fr / 1fr;
 }
 
 /* ********** Start of code for Navigation Bar **********  */
 .webSiteMainMenuDiv {
-  background-color: #1f2937;
   padding: 1rem;
   display: flex; /*Enable flexbox layout */
   flex-direction: row;
@@ -72,6 +99,7 @@ a:active {
   It also exerts some control over the alignment of items when they overflow the line. */
   flex-wrap: wrap;
   flex-shrink: 0;
+  background-color: var(--colourRootBackground);
 }
 
 .webSiteMainMenuDiv ul {
@@ -86,18 +114,18 @@ a:active {
 }
 
 .webSiteMainMenuDiv li a {
-  color: #f9faf8;
+  color: var(--colourMainMenuBackground);
   padding: 1rem;
   text-decoration: none;
   font-size: 2rem;
 }
 
 .webSiteMainMenuDiv li a:hover {
-  background-color: #11b076;
+  background-color: var(--colourALinksHover);
 }
 
 .webSiteMainMenuDiv a:active {
-  background-color: #0e0bd5;
+  background-color: var(--colourALinksActive);
 }
 
 /* ********** End of code for Navigation Bar **********  */
@@ -107,43 +135,26 @@ a:active {
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
-  background-color: #1f2937;
-  color: #e7dddd;
+
   font-size: 1.5rem;
   font-weight: 700;
+  background-color: var(--colourIntroductionBackground);
+  color: var(--colourIntroductionText);
 }
 
-.project-intro {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  background-color: #e5e7eb;
-}
-
-.project-intro p {
-  font-size: 1rem;
-  text-align: center;
-}
-
-.project-intro h1 {
-  justify-content: center;
-  background-color: #e5e7eb;
-  color: #1f2937;
-  padding: 0.5rem;
-}
-
-.portfolio {
+.portfolioDiv {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   flex-basis: 0;
   flex: 1;
   column-gap: 1.5rem;
-  color: black;
+
   font-size: 1.5rem;
   row-gap: 1.5rem;
   justify-content: baseline;
   align-items: stretch;
+  color: var(--colourProjectText);
 }
 
 .projectDiv {
@@ -154,27 +165,27 @@ a:active {
   padding: 0.5rem;
   margin: 1rem;
   border-radius: 25px;
-  border-color: #3882f6;
   border-width: 0.5rem;
   border-style: solid;
   width: 30rem;
+  border-color: var(--colourBorderProjects);
 }
 
-.footer {
+.footerDiv {
+  display: block;
   text-align: center;
   padding: 2rem;
-  display: block;
-  background-color: #1f2937;
-  color: #fbfbfe;
+  background-color: var(--colourFooterBackground);
+  color: var(--colourFooterText);
 }
 
 .cpdCompleted {
-  color: #0aa86e;
+  color: var(--colourCPDCompleted);
   font-size: 1.6rem;
 }
 
 .cpdPending {
-  color: #d9680b;
+  color: var(--colourCPDPending);
   font-size: 1.5rem;
 }
 
