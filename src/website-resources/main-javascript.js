@@ -2,7 +2,7 @@
 
 //ES Module Imports
 //Following will import the CSS file used to style the project
-import "./mainStyleSheet.css";
+import "./main-style-sheet.css";
 
 function time_function() {
   document.getElementById("time").textContent = Date();

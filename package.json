@@ -1,7 +1,7 @@
 {
-  "name": "webdevgithubprojecttemplate",
+  "name": "Portfolio Website",
   "version": "1.0.0",
-  "description": "GitHub Repository Template for Web Development Projects",
+  "description": "Portfolio Website",
   "main": "webpack.config.js",
   "scripts": {
     "test": "jest",
