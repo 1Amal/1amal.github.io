@@ -23,7 +23,7 @@ Last Update: 27/08/2024
   --colourProjectText: #110000;
   --colourFooterBackground: #caced3;
   --colourFooterText: #170f0f;
-  --colourMainMenuBackground: #235bab;
+  --colourMainMenuBackground: #23ab50;
   --colourMainMenuText: #ffffff;
   --colourBorderProjects: #5e50e2;
   --colourCPDPending: #d68418;
@@ -118,58 +118,47 @@ a:active {
 
 .dropdown-container {
   grid-area: Menu;
-  max-width: 250px;
-  margin: 40px auto;
+  max-width: 20rem;
+  margin: 1rem auto;
   text-align: center;
-  line-height: 50px;
-  font-size: 15px;
-  color: var(--colourMainMenuBackground);
+  line-height: 2rem;
+  font-size: 2rem;
+  color: var(--colourMainMenuText);
   cursor: pointer;
-} 
+}
 
 .menu-title {
-  
   padding: 1rem;
-  background-color: var(--colourRootBackground);
+  background-color: var(--colourMainMenuBackground);
 }
 
-/* .menu-title li {
-  float: left;
-} */
-
-ul.dropdown-menu li:hover {
-  background: var(--colourALinksHover);
-}
-
-.menu-title li a {
-  color: var(--colourMainMenuBackground);
-  padding: 1rem;
-  text-decoration: none;
-  font-size: 2rem;
-}
-
-.menu-title li a:hover {
-  background-color: var(--colourALinksHover);
-}
-
-.menu-title a:active {
-  background-color: var(--colourALinksActive);
-}
-
-
-.dropdown-menu{
+.dropdown-menu {
   display: none;
   margin: 0rem;
   padding: 0rem;
   overflow: hidden;
   background-color: var(--colourMainMenuBackground);
-  
 }
 
 .visible {
   display: block;
   animation: expand 500ms ease-in-out;
-  transform-origin: top;
+  transform-origin: bottom;
+}
+
+ul.dropdown-menu li:hover {
+  background: var(--colourALinksHover);
+}
+
+ul.dropdown-menu li a {
+  color: var(--colourMainMenuText);
+  /* padding: 3rem; */
+  text-decoration: none;
+  /* font-size: 2rem; */
+}
+
+ul.dropdown-menu a:active {
+  background-color: var(--colourALinksActive);
 }
 
 @keyframes expand {
@@ -180,7 +169,7 @@ ul.dropdown-menu li:hover {
   70% {
     transform: scaleY(1.1);
   }
-  
+
   100% {
     transform: scaleY(1);
   }
