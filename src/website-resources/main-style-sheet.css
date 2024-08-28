@@ -6,7 +6,7 @@ Last Update: 27/08/2024
   font-size: 2vw;
   /* Colour Scheme */
   /* HTML Main Element Colours */
-  --colourRootBackground: #f0f5fb;
+  --colourRootBackground: #ffffff;
   --colourH1Heading: #000000;
   --colourH2Heading: #000000;
   --colourH3Heading: #000000;
@@ -45,8 +45,7 @@ Last Update: 27/08/2024
 }
 
 body {
-  /* display: flex;
-  flex-direction: column; */
+
   background-color: var(--colourRootBackground);
   margin: 0rem;
   font-family: "openSansRegular";
@@ -106,12 +105,13 @@ a:active {
 
 .mainWebsiteGridContainer {
   display: grid;
-  grid-template: 1fr 1fr 10fr 1fr / 1fr;
+  grid-template: 1fr 1fr 3fr 1fr / 1fr;
   grid-template-areas:
     "Menu"
     "Intro"
     "Projects"
     "Contact";
+  max-height: 100vh;
 }
 
 /* ********** Start of code for Navigation Bar **********  */
@@ -119,11 +119,13 @@ a:active {
 .dropdown-container {
   grid-area: Menu;
   max-width: 20rem;
+  /* max-height: 100px; */
   margin: 1rem auto;
   text-align: center;
   line-height: 2rem;
   font-size: 2rem;
   color: var(--colourMainMenuText);
+  background-color: var(--colourIntroductionBackground);
   cursor: pointer;
 }
 
@@ -181,18 +183,24 @@ ul.dropdown-menu a:active {
 
 .introductionDiv {
   grid-area: Intro;
+  border-radius: 20%;
+  background-color: var(--colourMainMenuBackground);
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: flex-start;
   /* align-content: flex-start; */
-  padding: 1rem;
+  /* padding: 2rem; */
+  /* margin: 5rem; */
 }
 
 .logoImageDiv {
-  max-width: 10rem;
-  max-height: 10rem;
+  /* max-width: 20rem;
+  max-height: 10rem; */
+  
+  padding:5rem;
+  
 }
 .aboutInfoDiv {
   font-size: 1.5rem;
@@ -211,10 +219,8 @@ ul.dropdown-menu a:active {
 .portfolioDiv {
   grid-area: Projects;
   display: grid;
-
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(auto-fill,minmax(2048px,1fr));
   font-size: 1.5rem;
   color: var(--colourProjectText);
 }
@@ -236,10 +242,10 @@ ul.dropdown-menu a:active {
   padding: 0.5rem;
   margin: 1rem;
   border-radius: 25px;
-  border-width: 0.5rem;
+  border-width: 0.25rem;
   border-style: solid;
-  /* width: 10rem; */
-  /* height:minmax(10rem,30rem); */
+  max-height: 2048px;
+  max-width: 2048px;
 
   border-color: var(--colourBorderProjects);
 }
@@ -271,8 +277,8 @@ ul.dropdown-menu a:active {
 }
 
 .svgLogos {
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 /* ********** End of code for Project Section**********  */
