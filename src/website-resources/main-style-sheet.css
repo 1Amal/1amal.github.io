@@ -30,14 +30,6 @@ Last Update: 27/08/2024
   --colourCPDCompleted: #13a570;
 }
 
-@media (max-width: 600px) {
-  .introductionDiv
-  {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
 @font-face {
   font-family: "openSansRegular";
   src: url(../website-resources/fonts/open-sans-regular.ttf);
@@ -46,7 +38,6 @@ Last Update: 27/08/2024
 }
 
 body {
-
   background-color: var(--colourRootBackground);
   margin: 0rem;
   font-family: "openSansRegular";
@@ -199,9 +190,8 @@ ul.dropdown-menu a:active {
 .logoImageDiv {
   /* max-width: 20rem;
   max-height: 10rem; */
-  
-  padding:5rem;
-  
+
+  padding: 5rem;
 }
 .aboutInfoDiv {
   font-size: 1.5rem;
@@ -221,38 +211,34 @@ ul.dropdown-menu a:active {
   grid-area: Projects;
   display: grid;
   grid-template-rows: repeat(1, 1fr);
-  grid-template-columns: repeat(auto-fill,minmax(2048px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(2048px, 1fr));
   font-size: 1.5rem;
   color: var(--colourProjectText);
 }
 
 .projectDiv {
   display: grid;
-  grid-template: 2fr 1fr 1fr 1fr/ 1fr 1fr;
-
+  grid-template: 2fr 1fr 1fr 1fr / 1fr 1fr;
   resize: both;
   overflow: auto;
-
   justify-items: center;
   align-items: center;
-  /* column-gap:0.5rem;
-  row-gap:0.5rem; */
-  /* flex-wrap: wrap;
-  flex-direction: column; */
-  /* margin-bottom: 1rem; */
   padding: 0.5rem;
   margin: 1rem;
   border-radius: 25px;
   border-width: 0.25rem;
   border-style: solid;
-  max-height: 2048px;
-  max-width: 2048px;
-
+  max-height: 1920px;
+  max-width: 1920px;
   border-color: var(--colourBorderProjects);
 }
 
 .projectPreviewImageDiv {
   grid-area: 1/1/2/3;
+  background-image: url("../website-resources/images/project-odin-tracker.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .projectNameDiv {
@@ -307,7 +293,15 @@ ul.dropdown-menu a:active {
 /* .techLogosDiv {
 } */
 
-.contactMe
-{
+.contactMe {
   text-align: center;
+}
+
+/* Media queries for responsive mobile displays  */
+
+@media (max-width: 600px) {
+  .introductionDiv {
+    /* display: flex; */
+    flex-wrap: wrap;
+  }
 }
