@@ -30,10 +30,11 @@ Last Update: 27/08/2024
   --colourCPDCompleted: #13a570;
 }
 
-@media (max-width: 500px) {
-  body {
-    margin: 100px;
-    background-color: var(--colourALinks);
+@media (max-width: 600px) {
+  .introductionDiv
+  {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -305,3 +306,8 @@ ul.dropdown-menu a:active {
 
 /* .techLogosDiv {
 } */
+
+.contactMe
+{
+  text-align: center;
+}
