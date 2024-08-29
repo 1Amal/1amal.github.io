@@ -24,18 +24,6 @@ module.exports = {
         type: 'asset/resource',
       },
 
-      // {
-      //   test: /\.svg$/,
-      //   use: [
-      //     {
-      //       loader: "file-loader",
-      //       options: {
-      //         name: "[name].[ext]",
-      //         outputPath: "assets/",
-      //       },
-      //     },
-      //   ],
-      // },
     ],
   },
   plugins: [
