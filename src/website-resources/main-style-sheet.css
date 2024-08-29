@@ -243,7 +243,6 @@ ul.dropdown-menu a:active {
 
 .projectPreviewImageDiv {
   grid-area: 1/1/2/3;
-  /* background-image: url("../website-resources/images/project-odin-tracker.png"); */
   width: 600px;
   height: 600px;
   background-size: cover;
