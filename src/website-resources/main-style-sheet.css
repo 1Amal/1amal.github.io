@@ -236,16 +236,18 @@ ul.dropdown-menu a:active {
   border-radius: 25px;
   border-width: 0.25rem;
   border-style: solid;
-  max-height: 1920px;
   max-width: 1920px;
+  max-height: 1080px;
   border-color: var(--colourBorderProjects);
 }
 
 .projectPreviewImageDiv {
   grid-area: 1/1/2/3;
-  background-image: url("../website-resources/images/project-odin-tracker.png");
-  background-size: cover;
-  background-position: center;
+  /* background-image: url("../website-resources/images/project-odin-tracker.png"); */
+  width:100%;
+  height: 100%;
+  background-size:cover;
+  background-position:center;
   background-repeat: no-repeat;
 }
 
