@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _website_resources_main_style_sheet_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../website-resources/main-style-sheet.css */ \"./src/website-resources/main-style-sheet.css\");\n/* harmony import */ var _drop_down_menu_logic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../drop-down-menu-logic */ \"./src/drop-down-menu-logic.js\");\n//This is the main JavaScript file\n\n//ES Module Imports\n//Following will import the CSS file used to style the project\n\n\n\n\n(0,_drop_down_menu_logic__WEBPACK_IMPORTED_MODULE_1__.dropDownMenu)();\n\n\n//# sourceURL=webpack://Portfolio_Website/./src/website-resources/main-javascript.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _website_resources_main_style_sheet_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../website-resources/main-style-sheet.css */ \"./src/website-resources/main-style-sheet.css\");\n/* harmony import */ var _drop_down_menu_logic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../drop-down-menu-logic */ \"./src/drop-down-menu-logic.js\");\n/* harmony import */ var _images_logo_js_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/logo-js.svg */ \"./src/website-resources/images/logo-js.svg\");\n//This is the main JavaScript file\n\n//ES Module Imports\n//Following will import the CSS file used to style the project\n\n\n\n\n\n\n(0,_drop_down_menu_logic__WEBPACK_IMPORTED_MODULE_1__.dropDownMenu)();\n\n\n//# sourceURL=webpack://Portfolio_Website/./src/website-resources/main-javascript.js?");
 
 /***/ }),
 
@@ -147,6 +147,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _web
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"b8cc747a58ffa52b7ff9.ttf\";\n\n//# sourceURL=webpack://Portfolio_Website/./src/website-resources/fonts/open-sans-regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/website-resources/images/logo-js.svg":
+/*!**************************************************!*\
+  !*** ./src/website-resources/images/logo-js.svg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6202cd7ffea6a52e9ac7.svg\";\n\n//# sourceURL=webpack://Portfolio_Website/./src/website-resources/images/logo-js.svg?");
 
 /***/ })
 
@@ -238,7 +248,7 @@ eval("module.exports = __webpack_require__.p + \"b8cc747a58ffa52b7ff9.ttf\";\n\n
 /******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
 /******/ 		var document = __webpack_require__.g.document;
 /******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
 /******/ 				scriptUrl = document.currentScript.src;
 /******/ 			if (!scriptUrl) {
 /******/ 				var scripts = document.getElementsByTagName("script");

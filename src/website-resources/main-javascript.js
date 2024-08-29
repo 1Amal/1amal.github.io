@@ -6,4 +6,6 @@ import "../website-resources/main-style-sheet.css";
 
 import { dropDownMenu } from "../drop-down-menu-logic";
 
+import logoJs1 from './images/logo-js.svg';
+
 dropDownMenu();
