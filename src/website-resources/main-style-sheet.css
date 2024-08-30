@@ -28,9 +28,9 @@ Last Update: 30/08/2024
   --colour-IntroductionText: #000000;
   --colour-IntroductionLogos: #0cb920;
   --colour-ProjectBackground: #ffffff;
-  --colour-ProjectBorderWebsites:#f0a00a;
-  --colour-ProjectBorderProductivityApps:#37e50c;
-  --colour-ProjectBorderGamesMultimedia:#8f0449;
+  --colour-ProjectBorderWebsites: #f0a00a;
+  --colour-ProjectBorderProductivityApps: #37e50c;
+  --colour-ProjectBorderGamesMultimedia: #8f0449;
   --colour-ProjectText: #110000;
   --colour-FooterBackground: #caced3;
   --colour-FooterText: #170f0f;
@@ -41,6 +41,7 @@ Last Update: 30/08/2024
   --colour-CPDCompleted: #13a570;
   /* Custom CSS */
   background-color: var(--colour-RootBackground);
+  margin: 0;
 }
 
 @font-face {
@@ -56,7 +57,7 @@ h1 {
   margin: 5px;
   text-align: center;
   color: var(--colour-H1-Heading);
-  /* background-color: var(--colour-HeadingBackground); */
+  background-color: var(--colour-HeadingBackground);
 }
 
 h2 {
@@ -130,8 +131,6 @@ a:active {
 
 .dropdown-container {
   grid-area: mainMenuContainer;
-  /* max-width: 20rem; */
-  /* max-height: 100px; */
   margin: 1rem auto;
   text-align: center;
   line-height: 2rem;
@@ -151,7 +150,7 @@ a:active {
 .dropdown-menu {
   display: none;
   margin: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
   overflow: hidden;
   background-color: var(--colour-MainMenuBackground);
 }
@@ -168,16 +167,15 @@ ul.dropdown-menu li:hover {
 
 ul.dropdown-menu li {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 1rem;
+  padding: 1rem;
   border: 1px solid var(--colour-ALinksVisited);
 }
 
 ul.dropdown-menu li a {
   color: var(--colour-MainMenuText);
-  /* padding: 3rem; */
   text-decoration: none;
-  /* font-size: 2rem; */
+  font-size: 1.5rem;
 }
 
 ul.dropdown-menu a:active {
@@ -205,7 +203,7 @@ ul.dropdown-menu a:active {
 .introductionContainer {
   grid-area: introductionContainer;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   flex: 1 auto;
   justify-content: flex-start;
   /* align-content:space-between; */
@@ -266,20 +264,53 @@ flex-shrink:4; */
   border-width: 1rem;
   border-style: solid;
   border-color: red;
-
 }
 
 .projectCardsContainer {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  flex: 1;
+  box-sizing: border-box;
+  text-align: center;
+  /* justify-content: flex-start; */
+  /* display: grid; */
+  /* grid-template-rows: repeat(3, 1fr); */
   /* grid-template-columns: repeat(auto-fill, minmax(800px, 1fr)); */
-  grid-template-columns: repeat(3,1fr);
+  /* grid-template-columns: repeat(3,1fr); */
   font-size: 1.5rem;
 
   border-radius: 10px;
   border-width: 1rem;
   border-style: solid;
   border-color: rgb(8, 0, 255);
+}
+.projectCategoryWebsites {
+  /* grid-area: 1/1/2/4; */
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 10px;
+  border-width: 0.25rem;
+  border-style: solid;
+  border-color: var(--colour-ProjectBorderWebsites);
+}
+
+.projectCategoryProductivityWebApps {
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 10px;
+  border-width: 0.25rem;
+  border-style: solid;
+  border-color: var(--colour-ProjectBorderProductivityApps);
+}
+
+.projectCategoryGamesWebApps {
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 10px;
+  border-width: 0.25rem;
+  border-style: solid;
+  border-color: var(--colour-ProjectBorderGamesMultimedia);
 }
 
 .projectDiv {
@@ -295,23 +326,25 @@ flex-shrink:4; */
   border-width: 0.25rem;
   border-style: solid;
   border-color: var(--colour-BorderProjects);
-  /* max-width: 1920px;
-  max-height: 1080px; */
-  
+  /* max-width: 800px;
+  max-height: 600px; */
+  /* width:50rem;
+  height:80rem; */
+  overflow: scroll;
 }
 .projectPreviewImageDiv {
   grid-area: 1/1/2/3;
   /* width: 600px;
   height: 600px; */
-  background-size:contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .projectScreenShotImage {
   height: 100%;
   width: 100%;
   overflow: hidden;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .projectNameDiv {
@@ -330,41 +363,11 @@ flex-shrink:4; */
   grid-area: 4/1/5/3;
 }
 
-
-
 .svgLogos {
   height: 3rem;
   width: 3rem;
+  padding: 0.5rem;
 }
-
-.projectCategoryWebsites
-{
-  border-radius: 10px;
-  border-width: 0.25rem;
-  border-style: solid;
-  border-color: var(--colour-ProjectBorderWebsites);
-
-}
-
-.projectCategoryProductivityWebApps
-{
-  border-radius: 10px;
-  border-width: 0.25rem;
-  border-style: solid;
-  border-color: var(--colour-ProjectBorderProductivityApps);
-}
-
-.projectCategoryGamesWebApps
-{
-  border-radius: 10px;
-  border-width: 0.25rem;
-  border-style: solid;
-  border-color: var(--colour-ProjectBorderGamesMultimedia);
-}
-
-
-
-
 
 /* ********** End of code for Project Section**********  */
 
@@ -398,9 +401,28 @@ flex-shrink:4; */
 
 /* Media queries for responsive mobile displays  */
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .introductionContainer {
-    /* display: flex; */
     flex-wrap: wrap;
+  }
+
+  .projectCardsContainer {
+    flex: 1 1 100%;
+    /* flex-wrap: nowrap; */
+  }
+
+  .projectCardsContainer {
+    flex: 1 1 100%;
+  }
+  .projectCategoryWebsites {
+    flex: 1 1 100%;
+  }
+
+  .projectCategoryGamesWebApps {
+    flex: 1 1 100%;
+  }
+
+  .projectCategoryProductivityWebApps {
+    flex: 1 1 100%;
   }
 }
