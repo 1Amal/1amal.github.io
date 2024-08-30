@@ -295,6 +295,17 @@ ul.dropdown-menu a:active {
   border-color: var(--colour-ProjectBorderGamesMultimedia);
 }
 
+.projectCategoryDeveloperResources
+{
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 10px;
+  border-width: 0.25rem;
+  border-style: solid;
+  margin: 10px;
+  border-color: var(--colour-ProjectBorderGamesMultimedia);
+}
+
 .projectDiv {
   display: grid;
   grid-template: 3fr 1fr 1fr 1fr / 3fr 1fr;
@@ -396,6 +407,11 @@ ul.dropdown-menu a:active {
   }
 
   .projectCategoryProductivityWebApps {
+    flex: 1 1 100%;
+  }
+
+  .projectCategoryDeveloperResources
+  {
     flex: 1 1 100%;
   }
 }
