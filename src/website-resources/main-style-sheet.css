@@ -110,12 +110,12 @@ a:active {
 .mainWebsiteGridContainer {
   display: grid;
   grid-template:
-  "mainMenuContainer mainMenuContainer " 1fr
-  "introductionContainer introductionContainer" 1fr 
-  "projectsContainer projectsContainer" 5fr 
-  "contactContainer contactContainer" 1fr 
-  / 1fr 1fr;
- 
+    "mainMenuContainer mainMenuContainer " 1fr
+    "introductionContainer introductionContainer" 1fr
+    "projectsContainer projectsContainer" 5fr
+    "contactContainer contactContainer" 1fr
+    / 1fr 1fr;
+
   max-height: 100vh;
   max-width: 100vw;
   margin: 0;
@@ -132,10 +132,12 @@ a:active {
   margin: 1rem auto;
   text-align: center;
   line-height: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding: 1rem;
   color: var(--colour-MainMenuText);
   background-color: var(--colour-IntroductionBackground);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .menu-title {
@@ -145,8 +147,8 @@ a:active {
 
 .dropdown-menu {
   display: none;
-  margin: 0rem;
-  padding: 0rem;
+  margin: 1rem;
+  padding: 1rem;
   overflow: hidden;
   background-color: var(--colour-MainMenuBackground);
 }
@@ -159,6 +161,13 @@ a:active {
 
 ul.dropdown-menu li:hover {
   background: var(--colour-ALinksHover);
+}
+
+ul.dropdown-menu li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--colour-ALinksVisited);
 }
 
 ul.dropdown-menu li a {
