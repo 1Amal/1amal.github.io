@@ -1,33 +1,35 @@
 /* CSS Style sheet Template, developed by Amal Kariyawasam (https://1amal.github.io), 
-Last Update: 27/08/2024 
+Last Update: 30/08/2024 
 */
 
 :root {
-  font-size: 2vw;
+  font-size: 16px;
   /* Colour Scheme */
   /* HTML Main Element Colours */
-  --colourRootBackground: #ffffff;
-  --colourH1Heading: #000000;
-  --colourH2Heading: #000000;
-  --colourH3Heading: #000000;
-  --colourPParagraph: #1f2937;
-  --colourHeadingBackground: #efecec;
-  --colourALinks: #2997ff;
-  --colourALinksActive: #13a570;
-  --colourALinksVisited: #027a50;
-  --colourALinksHover: #7940e3;
+  --colour-RootBackground: #ffffff;
+  --colour-H1-Heading: #000000;
+  --colour-H2-Heading: #160404;
+  --colour-H3-Heading: #1e1c1c;
+  --colour-P-Paragraph: #1f2937;
+  --colour-HeadingBackground: #ffffff;
+  --colour-ALinks: #2997ff;
+  --colour-ALinksActive: #13a570;
+  --colour-ALinksVisited: #027a50;
+  --colour-ALinksHover: #7940e3;
   /* Different Div Section Colours */
-  --colourIntroductionBackground: #f4b618;
-  --colourIntroductionText: #000000;
-  --colourProjectBackground: #ffffff;
-  --colourProjectText: #110000;
-  --colourFooterBackground: #caced3;
-  --colourFooterText: #170f0f;
-  --colourMainMenuBackground: #23ab50;
-  --colourMainMenuText: #ffffff;
-  --colourBorderProjects: #5e50e2;
-  --colourCPDPending: #d68418;
-  --colourCPDCompleted: #13a570;
+  --colour-MainWebsiteGridContainer: #ffffff;
+  --colour-IntroductionBackground: #f4b618;
+  --colour-IntroductionText: #000000;
+  --colour-IntroductionLogos: #0cb920;
+  --colour-ProjectBackground: #ffffff;
+  --colour-ProjectText: #110000;
+  --colour-FooterBackground: #caced3;
+  --colour-FooterText: #170f0f;
+  --colour-MainMenuBackground: #23ab50;
+  --colour-MainMenuText: #ffffff;
+  --colour-BorderProjects: #5e50e2;
+  --colour-CPDPending: #d68418;
+  --colour-CPDCompleted: #13a570;
 }
 
 @font-face {
@@ -38,7 +40,7 @@ Last Update: 27/08/2024
 }
 
 body {
-  background-color: var(--colourRootBackground);
+  background-color: var(--colour-RootBackground);
   margin: 0rem;
   font-family: "openSansRegular";
   /*  min-height: 100vh;  The min-width CSS property sets the minimum width of an element. 
@@ -46,8 +48,8 @@ body {
 }
 
 h1 {
-  background-color: var(--colourHeadingBackground);
-  color: var(--colourH1Heading);
+  background-color: var(--colour-HeadingBackground);
+  color: var(--colour-H1-Heading);
   font-size: 2rem;
   padding: 5px;
   margin: 5px;
@@ -55,8 +57,8 @@ h1 {
 }
 
 h2 {
-  background-color: var(--colourHeadingBackground);
-  color: var(--colourH2Heading);
+  background-color: var(--colour-HeadingBackground);
+  color: var(--colour-H2-Heading);
   font-size: 1.5rem;
   padding: 5px;
   margin: 5px;
@@ -64,8 +66,8 @@ h2 {
 }
 
 h3 {
-  background-color: var(--colourHeadingBackground);
-  color: var(--colourH3Heading);
+  background-color: var(--colour-HeadingBackground);
+  color: var(--colour-H3-Heading);
   font-size: 1.25rem;
   padding: 5px;
   margin: 5px;
@@ -80,25 +82,25 @@ p {
 a:link {
   background-color: transparent;
   text-decoration: none;
-  color: var(--colourALinks);
+  color: var(--colour-ALinks);
 }
 
 a:visited {
   background-color: transparent;
   text-decoration: none;
-  color: var(--colourALinksVisited);
+  color: var(--colour-ALinksVisited);
 }
 
 a:hover {
   background-color: transparent;
   text-decoration: underline;
-  color: var(--colourALinksHover);
+  color: var(--colour-ALinksHover);
 }
 
 a:active {
   background-color: transparent;
   text-decoration: underline;
-  color: var(--colourALinksActive);
+  color: var(--colour-ALinksActive);
 }
 
 .mainWebsiteGridContainer {
@@ -110,8 +112,10 @@ a:active {
     "Projects"
     "Contact";
   max-height: 100vh;
+  max-width: 100vw;
   margin: 10px;
   padding: 10px;
+  background-color: var(--colour-MainWebsiteGridContainer);
 }
 
 /* ********** Start of code for Navigation Bar **********  */
@@ -124,14 +128,14 @@ a:active {
   text-align: center;
   line-height: 2rem;
   font-size: 2rem;
-  color: var(--colourMainMenuText);
-  background-color: var(--colourIntroductionBackground);
+  color: var(--colour-MainMenuText);
+  background-color: var(--colour-IntroductionBackground);
   cursor: pointer;
 }
 
 .menu-title {
   padding: 1rem;
-  background-color: var(--colourMainMenuBackground);
+  background-color: var(--colour-MainMenuBackground);
 }
 
 .dropdown-menu {
@@ -139,7 +143,7 @@ a:active {
   margin: 0rem;
   padding: 0rem;
   overflow: hidden;
-  background-color: var(--colourMainMenuBackground);
+  background-color: var(--colour-MainMenuBackground);
 }
 
 .visible {
@@ -149,18 +153,18 @@ a:active {
 }
 
 ul.dropdown-menu li:hover {
-  background: var(--colourALinksHover);
+  background: var(--colour-ALinksHover);
 }
 
 ul.dropdown-menu li a {
-  color: var(--colourMainMenuText);
+  color: var(--colour-MainMenuText);
   /* padding: 3rem; */
   text-decoration: none;
   /* font-size: 2rem; */
 }
 
 ul.dropdown-menu a:active {
-  background-color: var(--colourALinksActive);
+  background-color: var(--colour-ALinksActive);
 }
 
 @keyframes expand {
@@ -184,7 +188,7 @@ ul.dropdown-menu a:active {
 .introductionDiv {
   grid-area: Intro;
   border-radius: 20%;
-  background-color: var(--colourMainMenuBackground);
+  background-color: var(--colour-IntroductionBackground);
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -204,13 +208,14 @@ ul.dropdown-menu a:active {
 .aboutInfoDiv {
   font-size: 1.5rem;
   font-weight: 700;
-  background-color: var(--colourIntroductionBackground);
-  color: var(--colourIntroductionText);
+  background-color: var(--colour-IntroductionBackground);
+  color: var(--colour-IntroductionText);
 }
 
 .portraitImage {
   height: 10rem;
   width: 10rem;
+  background-color: var(--colour-MainMenuBackground);
 }
 
 /* ********** End of code for About Section **********  */
@@ -221,7 +226,7 @@ ul.dropdown-menu a:active {
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(auto-fill, minmax(2048px, 1fr));
   font-size: 1.5rem;
-  color: var(--colourProjectText);
+  color: var(--colour-ProjectText);
 }
 
 .projectDiv {
@@ -238,7 +243,7 @@ ul.dropdown-menu a:active {
   border-style: solid;
   max-width: 1920px;
   max-height: 1080px;
-  border-color: var(--colourBorderProjects);
+  border-color: var(--colour-BorderProjects);
 }
 
 .projectPreviewImageDiv {
@@ -285,17 +290,17 @@ ul.dropdown-menu a:active {
   grid-area: Contact;
 
   padding: 1rem;
-  background-color: var(--colourFooterBackground);
-  color: var(--colourFooterText);
+  background-color: var(--colour-FooterBackground);
+  color: var(--colour-FooterText);
 }
 
 .cpdCompleted {
-  color: var(--colourCPDCompleted);
+  color: var(--colour-CPDCompleted);
   font-size: 1.6rem;
 }
 
 .cpdPending {
-  color: var(--colourCPDPending);
+  color: var(--colour-CPDPending);
   font-size: 1.5rem;
 }
 
