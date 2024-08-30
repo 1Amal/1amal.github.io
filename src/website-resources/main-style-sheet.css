@@ -3,7 +3,13 @@ Last Update: 30/08/2024
 */
 
 :root {
+  font-family: "openSansRegular";
   font-size: 16px;
+
+  /* min-height: 100vh;   */
+  /* The min-width CSS property sets the minimum width of an element. 
+  It prevents the used value of the width property from becoming smaller than the value specified for min-width. */
+
   /* Colour Scheme */
   /* HTML Main Element Colours */
   --colour-RootBackground: #ffffff;
@@ -30,6 +36,8 @@ Last Update: 30/08/2024
   --colour-BorderProjects: #5e50e2;
   --colour-CPDPending: #d68418;
   --colour-CPDCompleted: #13a570;
+  /* Custom CSS */
+  background-color: var(--colour-RootBackground);
 }
 
 @font-face {
@@ -39,44 +47,40 @@ Last Update: 30/08/2024
   font-style: normal;
 }
 
-body {
-  background-color: var(--colour-RootBackground);
-  margin: 0rem;
-  font-family: "openSansRegular";
-  /*  min-height: 100vh;  The min-width CSS property sets the minimum width of an element. 
-  It prevents the used value of the width property from becoming smaller than the value specified for min-width. */
-}
-
 h1 {
-  background-color: var(--colour-HeadingBackground);
-  color: var(--colour-H1-Heading);
   font-size: 2rem;
   padding: 5px;
   margin: 5px;
   text-align: center;
+  color: var(--colour-H1-Heading);
+  /* background-color: var(--colour-HeadingBackground); */
 }
 
 h2 {
-  background-color: var(--colour-HeadingBackground);
-  color: var(--colour-H2-Heading);
   font-size: 1.5rem;
   padding: 5px;
   margin: 5px;
   text-align: center;
+  color: var(--colour-H2-Heading);
+  /* background-color: var(--colour-HeadingBackground); */
 }
 
 h3 {
-  background-color: var(--colour-HeadingBackground);
-  color: var(--colour-H3-Heading);
   font-size: 1.25rem;
   padding: 5px;
   margin: 5px;
   text-align: center;
+  color: var(--colour-H3-Heading);
+  /* background-color: var(--colour-HeadingBackground); */
 }
 
 p {
-  margin: 1rem;
   font-size: 1rem;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  color: var(--colour-P-Paragraph);
+  /* background-color: var(--colour-HeadingBackground); */
 }
 
 a:link {
@@ -102,7 +106,7 @@ a:active {
   text-decoration: underline;
   color: var(--colour-ALinksActive);
 }
-
+/* ********** Code for Containers ********** */
 .mainWebsiteGridContainer {
   display: grid;
   grid-template: 1fr 1fr 3fr 1fr / 1fr;
@@ -187,35 +191,56 @@ ul.dropdown-menu a:active {
 
 .introductionDiv {
   grid-area: Intro;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 auto;
+  justify-content: flex-start;
+  /* align-content:space-between; */
+  /* align-items: center; */
   border-radius: 20%;
   background-color: var(--colour-IntroductionBackground);
+}
+
+.currentSkillsDiv {
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1;
+flex-shrink:4; */
+  background-color: var(--colour-MainMenuBackground);
+}
+
+.frontEndStackDiv {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  /* align-content: flex-start; */
-  /* padding: 2rem; */
-  /* margin: 5rem; */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* background-color: var(--colour-IntroductionBackground); */
 }
 
-.logoImageDiv {
-  /* max-width: 20rem;
-  max-height: 10rem; */
-
-  padding: 5rem;
+.backEndStackDiv {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
+
+.devToolsDiv {
+  display: flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
 .aboutInfoDiv {
+  /* display:flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  /* flex-grow: 2;
+  flex-shrink:2; */
+  flex: auto;
   font-size: 1.5rem;
   font-weight: 700;
   background-color: var(--colour-IntroductionBackground);
   color: var(--colour-IntroductionText);
-}
-
-.portraitImage {
-  height: 10rem;
-  width: 10rem;
-  background-color: var(--colour-MainMenuBackground);
 }
 
 /* ********** End of code for About Section **********  */
