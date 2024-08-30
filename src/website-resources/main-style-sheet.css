@@ -155,7 +155,7 @@ a:active {
 
 .visible {
   display: block;
-  animation: expand 500ms ease-in-out;
+  animation: expand 600ms ease-in-out;
   transform-origin: bottom;
 }
 
@@ -344,6 +344,7 @@ flex-shrink:4; */
 
 .contactMe {
   text-align: center;
+  padding:1rem;
 }
 
 /* Media queries for responsive mobile displays  */
