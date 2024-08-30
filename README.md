@@ -1,52 +1,53 @@
-# WebDevGitHubProjectTemplate
+# Web Development Portfolio
 
-GitHub Repository Template for Web Development Projects
+Welcome to my web development portfolio! This repository showcases my skills and projects in web development. The site is hosted on GitHub Pages and built using vanilla JavaScript, HTML, and CSS. It is developed and maintained in an Ubuntu Linux environment, with tooling support provided by Webpack, NPM, Prettier, and ESLint.
 
-This repository provides a comprehensive template for your web development projects, incorporating essential tools for efficient development and maintaining high code quality.
+## Live Version
 
-## Features
+[Click here for live version](https://1amal.github.io)
 
-Webpack: Bundles JavaScript modules and dependencies for optimized builds.
-HtmlWebpackPlugin: Automatically generates HTML files with references to bundled assets.
-ESLint: Lints your JavaScript code, catching errors and enforcing style consistency.
-Prettier: Formats your JavaScript code automatically for consistent and readable style.
-Simplified project structure: Easy organization and maintenance of your codebase.
-Supports development workflow: Optional automatic reloading with a development server.
-Getting Started
-Clone this repository:
+## 🚀 Features
+
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
+- **Interactive Elements**: Demonstrates the use of vanilla JavaScript for dynamic content.
+- **Clean Code**: Maintained code quality with Prettier and ESLint.
+- **Webpack Integration**: Bundles JavaScript, CSS, and other assets efficiently.
+- **GitHub Pages Hosting**: Deployed for easy access and sharing.
+
+## 🛠 Technologies Used
+
+- **HTML**: Structure and content of the site.
+- **CSS**: Styling and layout of the site.
+- **JavaScript**: Interactive features and dynamic content.
+- **Webpack**: Module bundling and asset management.
+- **NPM**: Package management.
+- **Prettier**: Code formatting.
+- **ESLint**: Code linting.
+- **Ubuntu Linux**: Development environment.
+- **GitHub Pages**: Hosting and deployment.
+
+## 📦 Installation
+
+To get started with this project locally, follow these steps:
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/1Amal/1amal.github.io
+   ```
 
 ## Initial Setup
 
-When creating a new project use Github templates and choose this template to create a repo with this template
+`npm install`
 
-Install all dependencies at once (Recommended):
-`npm install css-loader eslint webpack jest html-webpack-plugin prettier eslint-config-prettier jest --save-dev`
+## Important NPM commands
 
-Install Babel, you will need this if you wish to use Import
-By default, the current version of Jest will not recognize ES6 import statements. In order to be able to use ES6 modules for this project you may follow the Jest instructions for using Babel. https://jestjs.io/docs/en/getting-started#using-babel
-
-`npm install --save-dev babel-jest @babel/core @babel/preset-env`
-
-Install dependencies individually (Only required if above fails)
-`npm install css-loader --save-dev`
-`npm install html-webpack-plugin --save-dev`
-`npm install html-webpack-plugin --save-dev`
-`npm install prettier --save-dev`
-`npm install eslint-config-prettier --save-dev`
-`npm install eslint --save-dev`
-`npm install jest --save-dev`
-
-## Webpack
-This will install the file loader to correctly load images
-`npm install file-loader --save-dev`
-
-## Manual build
-
-`npm run build`
-
-## Automatic build
-
-`npx webpack --watch`
+- To view all the dependencies `npm ls` or `npm ls --all` for all the dependencies
+- View Webpack version: `npx webpack --version`
+- Run Webpack development server: `npx webpack serve`
+- Manual build: `npm run build`
+- Automatic build: `npx webpack --watch`
+- Update NPM packages and fix security issues: `npm audit fix` or `npm audit fix --force`
 
 ## Automatically deploy to Github Pages
 
@@ -68,7 +69,7 @@ By adding this to the packages.json (Already configured for this repo)
 You can simply push the commit to both the main branch and the gh-pages branch (Git Hub pages will be served from gh-pages branch)
 `"scripts": {"gh-pages": "git subtree push --prefix dist origin gh-pages && git push"}`
 
-`npm run gh-pages`
+To automatically push to Main and gh-pages branch you can simply run (package.json needs to have script setup as `"gh-pages": "git subtree push --prefix dist origin gh-pages && git push"`): `npm run gh-pages`
 
 ## Project Structure
 
@@ -86,15 +87,3 @@ webpack.config.js: Webpack configuration file for bundling JavaScript modules.
 .eslintrc.js: ESLint configuration file for linting rules.
 .prettierrc.js: Prettier configuration file for formatting rules.
 Note: The public folder is not strictly required but can be helpful during development with a development server.
-
-ESLint: During development, consider running ESLint automatically on file changes to catch errors and style inconsistencies early on. You can integrate it with your development server or use a linting tool like ESLint CLI.
-Prettier: Prettier can be configured to format your code automatically on save or using a script. This ensures consistent code style throughout your project.
-Building for Production
-The specific steps for building a production-ready version of your application may vary depending on your chosen tools and hosting platform. Generally, you'll want to:
-
-Run a build script (often defined in package.json) to:
-Bundle JavaScript modules using Webpack.
-Minify the code (optional) for smaller file sizes.
-Optimize assets (optional) for faster loading.
-Follow the deployment instructions for your chosen hosting platform.
-Remember: This is a comprehensive template. Feel free to customize it further based on your specific needs! Consider adding additional linters or formatters depending on your preferences.
