@@ -31,6 +31,7 @@ Last Update: 30/08/2024
   --colour-ProjectBorderWebsites: #f0a00a;
   --colour-ProjectBorderProductivityApps: #37e50c;
   --colour-ProjectBorderGamesMultimedia: #8f0449;
+  --colour-ProjectBorderDeveloperResources: #b03d03;
   --colour-ProjectText: #110000;
   --colour-FooterBackground: #caced3;
   --colour-FooterText: #170f0f;
@@ -295,15 +296,14 @@ ul.dropdown-menu a:active {
   border-color: var(--colour-ProjectBorderGamesMultimedia);
 }
 
-.projectCategoryDeveloperResources
-{
+.projectCategoryDeveloperResources {
   display: flex;
   flex-flow: row wrap;
   border-radius: 10px;
   border-width: 0.25rem;
   border-style: solid;
   margin: 10px;
-  border-color: var(--colour-ProjectBorderGamesMultimedia);
+  border-color: var(--colour-ProjectBorderDeveloperResources);
 }
 
 .projectDiv {
@@ -410,8 +410,7 @@ ul.dropdown-menu a:active {
     flex: 1 1 100%;
   }
 
-  .projectCategoryDeveloperResources
-  {
+  .projectCategoryDeveloperResources {
     flex: 1 1 100%;
   }
 }
