@@ -206,8 +206,6 @@ ul.dropdown-menu a:active {
   flex-flow: row nowrap;
   flex: 1 auto;
   justify-content: flex-start;
-  /* align-content:space-between; */
-  /* align-items: center; */
   border-radius: 20%;
   background-color: var(--colour-IntroductionBackground);
 }
@@ -215,8 +213,6 @@ ul.dropdown-menu a:active {
 .currentSkillsDiv {
   display: flex;
   flex-direction: column;
-  /* flex-grow: 1;
-flex-shrink:4; */
   background-color: var(--colour-MainMenuBackground);
 }
 
@@ -242,11 +238,6 @@ flex-shrink:4; */
 }
 
 .aboutInfoDiv {
-  /* display:flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
-  /* flex-grow: 2;
-  flex-shrink:2; */
   flex: auto;
   font-size: 1.5rem;
   font-weight: 700;
@@ -259,17 +250,11 @@ flex-shrink:4; */
 .projectsContainer {
   grid-area: projectsContainer;
   color: var(--colour-ProjectText);
-
-  border-radius: 10px;
-  border-width: 1rem;
-  border-style: solid;
-  border-color: red;
 }
 
 .projectCardsContainer {
   display: flex;
-  flex-flow: row wrap;
-  gap: 10px;
+  flex-flow: column wrap;
   flex: 1;
   box-sizing: border-box;
   text-align: center;
@@ -279,20 +264,15 @@ flex-shrink:4; */
   /* grid-template-columns: repeat(auto-fill, minmax(800px, 1fr)); */
   /* grid-template-columns: repeat(3,1fr); */
   font-size: 1.5rem;
-
-  border-radius: 10px;
-  border-width: 1rem;
-  border-style: solid;
-  border-color: rgb(8, 0, 255);
 }
 .projectCategoryWebsites {
-  /* grid-area: 1/1/2/4; */
   display: flex;
   flex-flow: row wrap;
   border-radius: 10px;
   border-width: 0.25rem;
   border-style: solid;
   border-color: var(--colour-ProjectBorderWebsites);
+  margin: 10px;
 }
 
 .projectCategoryProductivityWebApps {
@@ -302,6 +282,7 @@ flex-shrink:4; */
   border-width: 0.25rem;
   border-style: solid;
   border-color: var(--colour-ProjectBorderProductivityApps);
+  margin: 10px;
 }
 
 .projectCategoryGamesWebApps {
@@ -310,6 +291,7 @@ flex-shrink:4; */
   border-radius: 10px;
   border-width: 0.25rem;
   border-style: solid;
+  margin: 10px;
   border-color: var(--colour-ProjectBorderGamesMultimedia);
 }
 
@@ -317,25 +299,18 @@ flex-shrink:4; */
   display: grid;
   grid-template: 3fr 1fr 1fr 1fr / 3fr 1fr;
   resize: both;
-  /* overflow: auto; */
-  /* justify-items: center; */
-  /* align-items: center; */
   padding: 0.5rem;
   margin: 1rem;
   border-radius: 25px;
-  border-width: 0.25rem;
+  border-width: 0.1rem;
   border-style: solid;
   border-color: var(--colour-BorderProjects);
-  /* max-width: 800px;
-  max-height: 600px; */
-  /* width:50rem;
-  height:80rem; */
+  width: 400px;
+  height: 800px;
   overflow: scroll;
 }
 .projectPreviewImageDiv {
   grid-area: 1/1/2/3;
-  /* width: 600px;
-  height: 600px; */
 }
 
 .projectScreenShotImage {
@@ -372,10 +347,7 @@ flex-shrink:4; */
 /* ********** End of code for Project Section**********  */
 
 .contactMeContainer {
-  /* display: block; */
-  /* text-align: center; */
   grid-area: contactContainer;
-
   padding: 1rem;
   background-color: var(--colour-FooterBackground);
   color: var(--colour-FooterText);
@@ -391,9 +363,6 @@ flex-shrink:4; */
   font-size: 1.5rem;
 }
 
-/* .techLogosDiv {
-} */
-
 .contactMe {
   text-align: center;
   padding: 1rem;
@@ -406,9 +375,13 @@ flex-shrink:4; */
     flex-wrap: wrap;
   }
 
+  .projectDiv {
+    width: 220px;
+    height: 800px;
+  }
+
   .projectCardsContainer {
     flex: 1 1 100%;
-    /* flex-wrap: nowrap; */
   }
 
   .projectCardsContainer {
