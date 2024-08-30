@@ -7,6 +7,11 @@ module.exports = {
   output: {
     filename: "main-javascript.js",
     path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
+  devtool: "eval-source-map",
+  devServer: {
+    watchFiles: ["./src/index.html"],
   },
 
   module: {
@@ -21,9 +26,8 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        type: "asset/resource",
       },
-
     ],
   },
   plugins: [
