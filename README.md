@@ -4,7 +4,7 @@ Welcome to my web development portfolio! This repository showcases my skills and
 
 ## Live Version
 
-[Click here for live version](https://1amal.github.io)
+[Click here for Production Site](https://www.amalk.au)
 
 ## 🚀 Features
 
