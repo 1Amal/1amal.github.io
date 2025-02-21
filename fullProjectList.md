@@ -76,7 +76,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - Description: Exclusive membership only site where members can write anonymous posts, developed using NodeJs, Express(Passport,ejs), PostgreSQL
 - Front End Stack: EJS (Embedded JavaScript templating), HTML, CSS
 - Back End Stack: Node.js, Express.js, Passport.js, PostgreSQL, bcrypt.js, Koyeb
-- GitHub Repository URL: https://github.com/amaldevelops/members-only 
+- GitHub Repository URL: https://github.com/amaldevelops/members-only
 - Production Site URL: https://nodejs-membersonly.onrender.com
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
@@ -116,60 +116,38 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - License: GPL-3.0
 - Last Updated: 21/02/2025
 
-### Project:
+### Project: dynamic-user-interface-npm-modules
 
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
+- Description: Image carousel and Drop down menu available on NPM
+- Front End Stack: JavaScript, HTML, CSS
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/dynamic-user-interface-npm-modules
 - Production Site URL:
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 
+- Last Updated: 03/06/2024
 
-### Project:
-- Last Updated: 
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
+### Project: calculator
+
+- Description: Web Calculator using JavaScript
+- Front End Stack: JavaScript, HTML, CSS
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/calculator
+- Production Site URL: https://www.amalk.au/calculator/
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 
+- Last Updated: 29/08/2024
 
-### Project:
+### Project: etch-a-sketch
 
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
+- Description: Browser version of something between a sketchpad and an Etch-A-Sketch.
+- Front End Stack: JavaScript, HTML, CSS
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/etch-a-sketch
+- Production Site URL: https://www.amalk.au/etch-a-sketch
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 
-
-### Project:
-
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
-- Contributors: Amal Kariyawasam
-- License: GPL-3.0
-- Last Updated: 
-
-### Project:
-
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
-- Contributors: Amal Kariyawasam
-- License: GPL-3.0- Last Updated: 
-- Last Updated: 
+- Last Updated: 01/07/2023
 
 ### Project:
 
@@ -180,18 +158,18 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - Production Site URL:
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 
+- Last Updated:
 
 ### Project:
 
-- Description:- Last Updated: 
+- Description:
 - Front End Stack:
 - Back End Stack:
 - GitHub Repository URL:
 - Production Site URL:
 - Contributors: Amal Kariyawasam
-- License: GPL-3.0
-- Last Updated: 
+- License: GPL-3.0- Last Updated:
+- Last Updated:
 
 ### Project:
 
@@ -202,8 +180,19 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - Production Site URL:
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 
-- Last Updated: 
+- Last Updated:
+
+### Project:
+
+- Description:- Last Updated:
+- Front End Stack:
+- Back End Stack:
+- GitHub Repository URL:
+- Production Site URL:
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
+- Last Updated:
+
 ### Project:
 
 - Description:
@@ -213,7 +202,8 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - Production Site URL:
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 
+- Last Updated:
+- Last Updated:
 
 ### Project:
 
@@ -224,7 +214,18 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - Production Site URL:
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 
+- Last Updated:
+
+### Project:
+
+- Description:
+- Front End Stack:
+- Back End Stack:
+- GitHub Repository URL:
+- Production Site URL:
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
+- Last Updated:
 
 ## Project Template
 
@@ -237,4 +238,4 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - Production Site URL:
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 
+- Last Updated:
