@@ -272,49 +272,6 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - License: GPL-3.0
 - Last Updated: 11/08/2022
 
-### Project:
-
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
-- Contributors: Amal Kariyawasam
-- License: GPL-3.0
-- Last Updated:
-
-### Project:
-
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
-- Contributors: Amal Kariyawasam
-- License: GPL-3.0
-- Last Updated:
-
-### Project:
-
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
-- Contributors: Amal Kariyawasam
-- License: GPL-3.0
-- Last Updated:
-
-### Project:
-
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
-- Contributors: Amal Kariyawasam
-- License: GPL-3.0
-- Last Updated:
 
 ## Project Template
 
