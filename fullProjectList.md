@@ -61,35 +61,35 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - License: GPL-3.0
 - Last Updated: 21/02/2025
 
-### Project:
+### Project: tech-lexicon
 
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
+- Description: An accessible, comprehensive reference for Software Engineering, Hardware Engineering, DevOps, Cybersecurity, Linux, AI, and more. This open-source repository is built for the community, licensed under GPL V3.0. Contributions are welcome to expand and improve this shared resource.
+- Front End Stack: JavaScript, HTML, CSS, GitHub Pages
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/1Amal/tech-lexicon
+- Production Site URL: https://www.amalk.au/tech-lexicon/
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
 - Last Updated: 21/02/2025
 
-### Project:
+### Project: file-uploader-crud
 
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
+- Description: Personal storage CRUD ( Create, Read, Update and Delete) service using NodeJs, Express, Prisma, Passport
+- Front End Stack: EJS (Embedded JavaScript templating)
+- Back End Stack: Node.js, Express.js, PostgreSQL,Prisma ORM,Prisma session store, Multer, Cloudinary
+- GitHub Repository URL: https://github.com/1Amal/file-uploader-crud
+- Production Site URL: https://nodejs-file-uploader-crud.onrender.com
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 21/02/2025
+- Last Updated: 30/01/2025
 
-### Project:
+### Project: members-only
 
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
+- Description: Exclusive membership only site where members can write anonymous posts, developed using NodeJs, Express(Passport,ejs), PostgreSQL
+- Front End Stack: EJS (Embedded JavaScript templating)
+- Back End Stack: Node.js, Express.js, Passport.js, PostgreSQL, bcrypt.js, Koyeb
+- GitHub Repository URL: https://github.com/1Amal/members-only 
+- Production Site URL: https://nodejs-membersonly.onrender.com
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 21/02/2025
+- Last Updated: 15/01/2025
