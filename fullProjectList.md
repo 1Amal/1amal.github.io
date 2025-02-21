@@ -84,7 +84,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 
 ### Project: inventory-management
 
-- Description: Inventory management app based on NodeJs, Express, PostgresSQL
+- Description: Inventory Management System built with Node.js, Express, and PostgreSQL, designed to efficiently manage product information and inventory.
 - Front End Stack: EJS (Embedded JavaScript templating), HTML, CSS
 - Back End Stack: Node.js, Express.js, PostgreSQL, Native pg library, Render, Koyeb
 - GitHub Repository URL: https://github.com/amaldevelops/inventory-management
@@ -96,7 +96,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 
 ### Project: mini-message-board
 
-- Description: NodeJs and Express based Mini Message Board
+- Description: This interactive web application allows users to post and view messages. Built using Express.js, PostgreSQL and EJS, this project demonstrates key concepts in building server-side web applications.
 - Front End Stack: EJS (Embedded JavaScript templating), HTML, CSS
 - Back End Stack: Node.js, Express.js, PostgreSQL
 - GitHub Repository URL: https://github.com/amaldevelops/mini-message-board
@@ -108,7 +108,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 ### Project: the-odin-project-curriculum
 
 - Description: My Contributions to The open curriculum for learning web development www.theodinproject.com/
-- Front End Stack: Mark Down
+- Front End Stack: Markdown
 - Back End Stack: N/a
 - GitHub Repository URL: https://github.com/amaldevelops/the-odin-project-curriculum
 - Production Site URL: www.theodinproject.com
@@ -129,7 +129,8 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 
 ### Project: calculator
 
-- Description: Web Calculator using JavaScript
+- Description: This is a simple online calculator built using HTML, CSS, and JavaScript. The calculator provides basic arithmetic operations including addition, subtraction, multiplication, and division. It features a clean and responsive design, making it accessible and user-friendly across different devices.
+Features Basic Arithmetic Operations: Addition, subtraction, multiplication, and division. Responsive Design: Adapts to different screen sizes and devices. User-Friendly Interface: Clear buttons and display for easy use. Error Handling: Displays error messages for invalid operations, such as division by zero.
 - Front End Stack: JavaScript, HTML, CSS
 - Back End Stack: N/a
 - GitHub Repository URL: https://github.com/amaldevelops/calculator
@@ -168,7 +169,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - GitHub Repository URL: https://github.com/amaldevelops/todo-list
 - Production Site URL: https://www.amalk.au/todo-list
 - Contributors: Amal Kariyawasam
-- License: GPL-3.0- Last Updated:
+- License: GPL-3.0
 - Last Updated: 24/05/2024
 
 ### Project: tdd-battleship-game
@@ -184,7 +185,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 
 ### Project: weather-app-js
 
-- Description: Weather Forecast App built using JavaScript, HTML,CSS and WeatherAPI
+- Description: User-friendly weather app built with JavaScript, HTML, CSS, Webpack, and a weather API (https://www.weatherapi.com). It allows users to search for locations and displays the current weather conditions, including temperature, weather description.
 - Front End Stack: JavaScript, HTML,CSS
 - Back End Stack: N/a
 - GitHub Repository URL: https://github.com/amaldevelops/weather-app-js
@@ -196,7 +197,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 ### Project: library-catalogue
 
 - Description: Library Catalogue Made with JavaScript, CSS and HTML
-- Front End Stack: JavaScript, CSS, HTMLportfolio-www.theodinproject.com/
+- Front End Stack: JavaScript, CSS, HTML
 - Back End Stack: N/a
 - GitHub Repository URL: https://github.com/amaldevelops/library-catalogue
 - Production Site URL: https://www.amalk.au/library-catalogue
@@ -224,7 +225,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - Production Site URL: https://salonlasanthi.com/
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated:
+- Last Updated: 03/09/2022
 
 ### Project: memory-card-game
 
@@ -250,7 +251,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 
 ### Project: resume-creator
 
-- Description: Small React based application where users can input their information and generate a resume
+- Description: Small React based application where users can input their information and generate a resume which can be printed or saved as a PDF using the browser print dialog.
 - Front End Stack: React (Functional Components and Hooks), JavaScript (ES6+), HTML5 & CSS3
 - Back End Stack: N/a
 - GitHub Repository URL: https://github.com/amaldevelops/resume-creator
