@@ -38,13 +38,13 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - License: GPL-3.0
 - Last Updated: 21/02/2025
 
-### Project: portfolio-www.theodinproject.com
+### Project: the-odin-project-tracker
 
 - Description: https://www.theodinproject.com Lessons and Projects Tracker
 - Front End Stack: JavaScript, HTML, CSS, GitHub Pages
 - Back End Stack: N/a
-- GitHub Repository URL: https://github.com/amaldevelops/portfolio-www.theodinproject.com
-- Production Site URL: https://www.amalk.au/portfolio-www.theodinproject.com/
+- GitHub Repository URL: https://github.com/amaldevelops/the-odin-project-tracker
+- Production Site URL: https://www.amalk.au/the-odin-project-tracker
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
 - Last Updated: 21/02/2025
@@ -149,27 +149,128 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - License: GPL-3.0
 - Last Updated: 01/07/2023
 
-### Project:
+### Project: tic-tac-toe
 
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
-- Contributors: Amal Kariyawasam
+- Description: Tic Tac Toe Game developed using JavaScript, HTML and CSS
+- Front End Stack: JavaScript, HTML, CSSportfolio-www.theodinproject.com/
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/tic-tac-toe
+- Production Site URL: https://www.amalk.au/tic-tac-toe
+- Contributors: Amal Kariyawasamportfolio-www.theodinproject.com/
 - License: GPL-3.0
-- Last Updated:
+- Last Updated: 26/02/2024
 
-### Project:
+### Project: todo-list
 
-- Description:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
+- Description: JavaScript, HTML, CSS based To Do list front end using Web Storage API (localStorage) for data persistence.
+- Front End Stack: JavaScript, HTML, CSS
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/todo-list
+- Production Site URL: https://www.amalk.au/todo-list
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0- Last Updated:
+- Last Updated: 24/05/2024
+
+### Project: tdd-battleship-game
+
+- Description: Implementation of the classic game ‘Battleship’ using TDD (Test Driven Development)
+- Front End Stack: JavaScript, HTML, CSS
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/tdd-battleship-game
+- Production Site URL: https://www.amalk.au/tdd-battleship-game
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
+- Last Updated: 13/08/2024
+
+### Project: weather-app-js
+
+- Description: Weather Forecast App built using JavaScript, HTML,CSS and WeatherAPI
+- Front End Stack: JavaScript, HTML,CSS
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/weather-app-js
+- Production Site URL: https://www.amalk.au/weather-app-js
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
+- Last Updated: 18/06/2024
+
+### Project: library-catalogue
+
+- Description: Library Catalogue Made with JavaScript, CSS and HTML
+- Front End Stack: JavaScript, CSS, HTMLportfolio-www.theodinproject.com/
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/library-catalogue
+- Production Site URL: https://www.amalk.au/library-catalogue
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
+- Last Updated: 07/06/2024
+
+### Project: professional-business-website-2
+
+- Description: Website made for a local business in Melbourne, Australia. Unfortunately company no longer hosts this version on companies Web server. However you can access a live version hosted on my GitHub Pages
+- Front End Stack: JavaScript, HTML, CSS / Bootstrap
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/professional-business-website-2
+- Production Site URL: https://www.amalk.au/professional-business-website-2
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
+- Last Updated: 06/11/2022
+
+### Project: professional-business-website-1
+
+- Description:Wordpress Website designed and developed for a local small business based in Melbourne, Australia
+- Front End Stack: WordPress
+- Back End Stack:WordPress
+- GitHub Repository URL: https://github.com/amaldevelops/professional-business-website-1
+- Production Site URL: https://salonlasanthi.com/
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
 - Last Updated:
+
+### Project: memory-card-game
+
+- Description: React based interactive memory game allows players to select cards displaying images from Giphy. The game tracks the current score and the highest score achieved, with cards shuffling randomly with each click.
+- Front End Stack: JavaScript, CSS/Flexbox, HTML, Vite
+- Back End Stack: Netlify
+- GitHub Repository UetlifyRL: https://github.com/amaldevelops/memory-card-game
+- Production Site URL: https://amal-memory-card-game.netlify.app
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
+- Last Updated: 30/10/2024
+
+### Project: shopping-cart
+
+- Description: React Based Mock Shopping cart app
+- Front End Stack: React, React Router for page navigation, FakeStore API for product data, React Testing Library for testing, CSS Modules and CSS Styled Components
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/shopping-cart
+- Production Site URL: https://amalk-reactshoppingcart.netlify.app/
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
+- Last Updated: 23/11/2024
+
+### Project: resume-creator
+
+- Description: Small React based application where users can input their information and generate a resume
+- Front End Stack: React (Functional Components and Hooks), JavaScript (ES6+), HTML5 & CSS3
+- Back End Stack: N/a
+- GitHub Repository URL: https://github.com/amaldevelops/resume-creator
+- Production Site URL Netlify: https://amal-react-resume.netlify.app
+- Production Site URL Vercel: https://amal-react-resume.vercel.app
+- Production Site URL Cloudflare : https://amal-react-resume-webapp.pages.dev
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
+- Last Updated: 19/10/2024
+
+### Project: weather-app-python
+
+- Description: Python Flask based Weather App
+- Front End Stack: JavaScript, HTML, CSS
+- Back End Stack: Python, Flask, Pythonanywhere
+- GitHub Repository URL: https://github.com/amaldevelops/weather-app-python
+- Production Site URL: https://amaldevelops.pythonanywhere.com/
+- Contributors: Amal Kariyawasam
+- License: GPL-3.0
+- Last Updated: 11/08/2022
 
 ### Project:
 
@@ -184,17 +285,6 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 
 ### Project:
 
-- Description:- Last Updated:
-- Front End Stack:
-- Back End Stack:
-- GitHub Repository URL:
-- Production Site URL:
-- Contributors: Amal Kariyawasam
-- License: GPL-3.0
-- Last Updated:
-
-### Project:
-
 - Description:
 - Front End Stack:
 - Back End Stack:
@@ -202,7 +292,6 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - Production Site URL:
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated:
 - Last Updated:
 
 ### Project:
