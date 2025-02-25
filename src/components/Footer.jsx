@@ -1,7 +1,8 @@
 function Footer() {
   return (
     <div>
-      <h3>Website Under construction, Last updated: 25/02/2025</h3>
+      <p><strong>Latest update: </strong>25/02/2025</p>
+      <p>Amal Kariyawasam, 2025</p>
     </div>
   );
 }

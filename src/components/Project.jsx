@@ -1,21 +1,36 @@
-function Project(props) {
+function Project({
+  Project = "Untitled Project",
+  PreviewImage = "/logos/logo-noPreview.png",
+  Description = "No description available",
+  FrontEndStack = "",
+  BackEndStack = "",
+  GitHubRepositoryURL = "",
+  ProductionSiteURL = "",
+  Contributors = "Amal Kariyawasam",
+  License = "GPL-3.0",
+  LastUpdated = "Unknown",
+}) {
   const projectInfo = {
-    Project: props.Project,
-    PreviewImage:props.PreviewImage,
-    Description: props.Description,
-    FrontEndStack: props.FrontEndStack,
-    BackEndStack: props.BackEndStack,
-    GitHubRepositoryURL: props.GitHubRepositoryURL,
-    ProductionSiteURL: props.ProductionSiteURL,
-    Contributors: props.Contributors,
-    License: props.License,
-    LastUpdated: props.LastUpdated,
+    Project,
+    PreviewImage,
+    Description,
+    FrontEndStack,
+    BackEndStack,
+    GitHubRepositoryURL,
+    ProductionSiteURL,
+    Contributors,
+    License,
+    LastUpdated,
   };
 
   return (
     <div className="individualProjectDiv">
       <h2>{projectInfo.Project}</h2>
-      <img src={projectInfo.PreviewImage} alt="Project Preview Image" className="previewImage"/>
+      <img
+        src={projectInfo.PreviewImage}
+        alt="Project Preview Image"
+        className="previewImage"
+      />
       <p>
         <strong></strong> {projectInfo.Description}
       </p>

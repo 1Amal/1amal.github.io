@@ -1,7 +1,7 @@
 import Project from "./Project";
 
 const Project_1 = {
-  Project: "www.amalk.au",
+  Project: "Project 1 : www.amalk.au Software Portfolio",
   PreviewImage: "project-previews/project-portfolio-website.png",
   Description: "Software Engineering Portfolio",
   FrontEndStack: "React, JavaScript, HTML, CSS, GitHub Pages",
@@ -15,8 +15,8 @@ const Project_1 = {
 
 const Project_2 = {
   Project:
-    "Node.js/Express Blog API and React Front-End Client (Reader and Writer)",
-  PreviewImage: "",
+    "Project 2 : Node.js/Express Blog API and React Front-End Client (Reader and Writer)",
+  PreviewImage: "/logos/logo-noPreview.png",
   Description: "JavaScript,React, HTML, CSS",
   FrontEndStack: "",
   BackEndStack:
@@ -29,8 +29,8 @@ const Project_2 = {
 };
 
 const Project_3 = {
-  Project: "TechLexicon",
-  PreviewImage: "",
+  Project: "Project 3 : TechLexicon",
+  PreviewImage: "/logos/logo-noPreview.png",
   Description:
     "An accessible, comprehensive reference for Software Engineering, Hardware Engineering, DevOps, Cybersecurity, Linux, AI, and more. This open-source repository is built for the community, licensed under GPL V3.0. Contributions are welcome to expand and improve this shared resource.",
   FrontEndStack: "JavaScript, HTML, CSS, GitHub Pages",
@@ -43,8 +43,8 @@ const Project_3 = {
 };
 
 const Project_4 = {
-  Project: "www.theodinproject.com Lessons and Projects Tracker",
-  PreviewImage: "",
+  Project: "Project 4 : www.theodinproject.com Lessons and Projects Tracker",
+  PreviewImage: "/logos/logo-noPreview.png",
   Description: "JavaScript, HTML, CSS, GitHub Pages",
   FrontEndStack: "JavaScript, HTML, CSS, GitHub Pages",
   BackEndStack: "N/a",
@@ -57,8 +57,8 @@ const Project_4 = {
 };
 
 const Project_5 = {
-  Project: "File uploader (CRUD)",
-  PreviewImage: "",
+  Project: "Project 5 : File uploader (CRUD)",
+  PreviewImage: "/logos/logo-noPreview.png",
   Description:
     "Personal storage CRUD ( Create, Read, Update and Delete) service using NodeJs, Express, Prisma, Passport",
   FrontEndStack: "EJS (Embedded JavaScript templating), HTML, CSS",
@@ -72,8 +72,8 @@ const Project_5 = {
 };
 
 const Project_6 = {
-  Project: "Members Only",
-  PreviewImage: "",
+  Project: "Project 6 : Members Only",
+  PreviewImage: "/logos/logo-noPreview.png",
   Description:
     "Exclusive membership only site where members can write anonymous posts, developed using NodeJs, Express(Passport,ejs), PostgreSQL",
   FrontEndStack: "EJS (Embedded JavaScript templating), HTML, CSS",
@@ -87,8 +87,8 @@ const Project_6 = {
 };
 
 const Project_7 = {
-  Project: "Inventory management",
-  PreviewImage: "",
+  Project: "Project 7 : Inventory management",
+  PreviewImage: "/logos/logo-noPreview.png",
   Description:
     "Inventory Management System built with Node.js, Express, and PostgreSQL, designed to efficiently manage product information and inventory.",
   FrontEndStack: "EJS (Embedded JavaScript templating), HTML, CSS",
@@ -102,8 +102,8 @@ const Project_7 = {
 };
 
 const Project_8 = {
-  Project: "Mini message board",
-  PreviewImage: "",
+  Project: "Project 8 : Mini message board",
+  PreviewImage: "/logos/logo-noPreview.png",
   Description:
     "This interactive web application allows users to post and view messages. Built using Express.js, PostgreSQL and EJS, this project demonstrates key concepts in building server-side web applications.",
   FrontEndStack: "EJS (Embedded JavaScript templating), HTML, CSS",
@@ -116,8 +116,8 @@ const Project_8 = {
 };
 
 const Project_9 = {
-  Project: "Calculator",
-  PreviewImage: "",
+  Project: "Project 9 : Calculator",
+  PreviewImage: "/logos/logo-noPreview.png",
   Description:
     "This is a simple online calculator built using HTML, CSS, and JavaScript. The calculator provides basic arithmetic operations including addition, subtraction, multiplication, and division. It features a clean and responsive design, making it accessible and user-friendly across different devices. Features Basic Arithmetic Operations: Addition, subtraction, multiplication, and division. Responsive Design: Adapts to different screen sizes and devices. User-Friendly Interface: Clear buttons and display for easy use. Error Handling: Displays error messages for invalid operations, such as division by zero.",
   FrontEndStack: " JavaScript, HTML, CSS",
@@ -130,82 +130,202 @@ const Project_9 = {
 };
 
 const Project_10 = {
-  Project: "",
-  PreviewImage: "",
-  Description: "",
-  FrontEndStack: "",
-  BackEndStack: "",
-  GitHubRepositoryURL: "",
-  ProductionSiteURL: "",
+  Project: "Project 10 : Etch-a-sketch",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description:
+    "Browser version of something between a sketchpad and an Etch-A-Sketch.",
+  FrontEndStack: "JavaScript, HTML, CSS",
+  BackEndStack: " N/a",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/etch-a-sketch",
+  ProductionSiteURL: "https://www.amalk.au/etch-a-sketch",
   Contributors: "Amal Kariyawasam",
   License: "GPL-3.0",
-  LastUpdated: "",
+  LastUpdated: " 01/07/2023",
 };
 
 const Project_11 = {
-  Project: "",
-  PreviewImage: "",
-  Description: "",
-  FrontEndStack: "",
-  BackEndStack: "",
-  GitHubRepositoryURL: "",
-  ProductionSiteURL: "",
+  Project: "Project 11 : Tic-tac-toe",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description: "Tic Tac Toe Game developed using JavaScript, HTML and CSS",
+  FrontEndStack: "JavaScript, HTML, CSS",
+  BackEndStack: " N/a",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/tic-tac-toe",
+  ProductionSiteURL: "https://www.amalk.au/tic-tac-toe",
   Contributors: "Amal Kariyawasam",
   License: "GPL-3.0",
-  LastUpdated: "",
+  LastUpdated: "26/02/2024",
 };
 
 const Project_12 = {
-  Project: "",
-  PreviewImage: "",
-  Description: "",
-  FrontEndStack: "",
-  BackEndStack: "",
-  GitHubRepositoryURL: "",
-  ProductionSiteURL: "",
+  Project: "Project 12 : Todo list",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description:
+    " JavaScript, HTML, CSS based To Do list front end using Web Storage API (localStorage) for data persistence.",
+  FrontEndStack: "JavaScript, HTML, CSS",
+  BackEndStack: "N/a",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/todo-list",
+  ProductionSiteURL: "https://www.amalk.au/todo-list",
   Contributors: "Amal Kariyawasam",
   License: "GPL-3.0",
-  LastUpdated: "",
+  LastUpdated: "24/05/2024",
 };
 
 const Project_13 = {
-  Project: "",
-  PreviewImage: "",
-  Description: "",
-  FrontEndStack: "",
-  BackEndStack: "",
-  GitHubRepositoryURL: "",
-  ProductionSiteURL: "",
+  Project: "Project 13 : TDD battleship game",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description:
+    "Implementation of the classic game ‘Battleship’ using TDD (Test Driven Development)",
+  FrontEndStack: "JavaScript, HTML, CSS",
+  BackEndStack: "N/a",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/tdd-battleship-game",
+  ProductionSiteURL: "https://www.amalk.au/tdd-battleship-game",
   Contributors: "Amal Kariyawasam",
   License: "GPL-3.0",
-  LastUpdated: "",
+  LastUpdated: "13/08/2024",
 };
 
 const Project_14 = {
-  Project: "",
-  PreviewImage: "",
-  Description: "",
-  FrontEndStack: "",
-  BackEndStack: "",
-  GitHubRepositoryURL: "",
-  ProductionSiteURL: "",
+  Project: "Project 14 : Weather App (JS)",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description:
+    "User-friendly weather app built with JavaScript, HTML, CSS, Webpack, and a weather API (https://www.weatherapi.com). It allows users to search for locations and displays the current weather conditions, including temperature, weather description.",
+  FrontEndStack: "JavaScript, HTML,CSS",
+  BackEndStack: "N/a",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/weather-app-js",
+  ProductionSiteURL: "https://www.amalk.au/weather-app-js",
   Contributors: "Amal Kariyawasam",
   License: "GPL-3.0",
-  LastUpdated: "",
+  LastUpdated: "18/06/2024",
 };
 
 const Project_15 = {
-  Project: "",
-  PreviewImage: "",
-  Description: "",
-  FrontEndStack: "",
-  BackEndStack: "",
-  GitHubRepositoryURL: "",
-  ProductionSiteURL: "",
+  Project: "Project 15 : Library catalogue",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description: "Library Catalogue Made with JavaScript, CSS and HTML",
+  FrontEndStack: "JavaScript, CSS, HTML",
+  BackEndStack: "N/a",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/library-catalogue",
+  ProductionSiteURL: "https://www.amalk.au/library-catalogue",
   Contributors: "Amal Kariyawasam",
   License: "GPL-3.0",
-  LastUpdated: "",
+  LastUpdated: "07/06/2024",
 };
+
+const Project_16 = {
+  Project: "Project 16 : Professional business website 1",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description:
+    "Wordpress Website designed and developed for a local small business based in Melbourne, Australia",
+  FrontEndStack: "WordPress",
+  BackEndStack: "WordPress",
+  GitHubRepositoryURL:
+    "https://github.com/amaldevelops/professional-business-website-1",
+  ProductionSiteURL: "https://salonlasanthi.com/",
+  Contributors: "Amal Kariyawasam",
+  License: "GPL-3.0",
+  LastUpdated: "03/09/2022",
+};
+
+const Project_17 = {
+  Project: "Project 17 : Professional business website 2",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description:
+    "Website made for a local business in Melbourne, Australia. Unfortunately company no longer hosts this version on companies Web server. However you can access a live version hosted on my GitHub Pages",
+  FrontEndStack: "JavaScript, HTML, CSS / Bootstrap",
+  BackEndStack: "N/a",
+  GitHubRepositoryURL:
+    "https://github.com/amaldevelops/professional-business-website-2",
+  ProductionSiteURL: "https://www.amalk.au/professional-business-website-2",
+  Contributors: "Amal Kariyawasam",
+  License: "GPL-3.0",
+  LastUpdated: "06/11/2022",
+};
+
+const Project_18 = {
+  Project: "Project 18 : Memory card game",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description:
+    "React based interactive memory game allows players to select cards displaying images from Giphy. The game tracks the current score and the highest score achieved, with cards shuffling randomly with each click.",
+  FrontEndStack: "JavaScript, CSS/Flexbox, HTML, Vite",
+  BackEndStack: "Netlify",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/memory-card-game",
+  ProductionSiteURL: "https://amal-memory-card-game.netlify.app",
+  Contributors: "Amal Kariyawasam",
+  License: "GPL-3.0",
+  LastUpdated: "30/10/2024",
+};
+
+const Project_19 = {
+  Project: "Project 19 : Shopping Cart",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description: "React Based Mock Shopping cart app",
+  FrontEndStack:
+    "React, React Router for page navigation, FakeStore API for product data, React Testing Library for testing, CSS Modules and CSS Styled Components",
+  BackEndStack: "N/a",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/shopping-cart",
+  ProductionSiteURL: "https://amalk-reactshoppingcart.netlify.app/",
+  Contributors: "Amal Kariyawasam",
+  License: "GPL-3.0",
+  LastUpdated: "23/11/2024",
+};
+
+const Project_20 = {
+  Project: "Project 20 : Resume Creator",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description:
+    "Small React based application where users can input their information and generate a resume which can be printed or saved as a PDF using the browser print dialog.",
+  FrontEndStack:
+    "React (Functional Components and Hooks), JavaScript (ES6+), HTML5 & CSS3",
+  BackEndStack: "N/a",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/resume-creator",
+  ProductionSiteURL: "https://amal-react-resume.netlify.app",
+
+  Contributors: "Amal Kariyawasam",
+  License: "GPL-3.0",
+  LastUpdated: "19/10/2024",
+};
+
+const Project_21 = {
+  Project: "Project 21 : Weather App (Python)",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description: "Python Flask based Weather App",
+  FrontEndStack: "JavaScript, HTML, CSS",
+  BackEndStack: "Python, Flask, Pythonanywhere",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/weather-app-python",
+  ProductionSiteURL: "https://amaldevelops.pythonanywhere.com",
+  Contributors: "Amal Kariyawasam",
+  License: "GPL-3.0",
+  LastUpdated: "11/08/2022",
+};
+
+const Project_22 = {
+  Project: "Project 22 : The Odin project curriculum contributions",
+  PreviewImage: "/logos/logo-noPreview.png",
+  Description:
+    "My Contributions to The open curriculum for learning web development www.theodinproject.com",
+  FrontEndStack: "Markdown",
+  BackEndStack: "N/a",
+  GitHubRepositoryURL:
+    "https://github.com/amaldevelops/the-odin-project-curriculum",
+  ProductionSiteURL: "www.theodinproject.com",
+  Contributors: "Amal Kariyawasam",
+  License: "GPL-3.0",
+  LastUpdated: "21/02/2025",
+};
+
+//   Template
+//   const Project_20 = {
+//     Project: "",
+//     PreviewImage: "/logos/logo-noPreview.png",
+//     Description: "",
+//     FrontEndStack: "",
+//     BackEndStack: "",
+//     GitHubRepositoryURL: "",
+//     ProductionSiteURL: "",
+//     Contributors: "Amal Kariyawasam",
+//     License: "GPL-3.0",
+//     LastUpdated: "",
+//   };
 
 function ProjectList() {
   return (
@@ -225,6 +345,13 @@ function ProjectList() {
       <Project {...Project_13} />
       <Project {...Project_14} />
       <Project {...Project_15} />
+      <Project {...Project_16} />
+      <Project {...Project_17} />
+      <Project {...Project_18} />
+      <Project {...Project_19} />
+      <Project {...Project_20} />
+      <Project {...Project_21} />
+      <Project {...Project_22} />
     </div>
   );
 }
