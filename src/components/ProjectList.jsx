@@ -2,6 +2,7 @@ import Project from "./Project";
 
 const Project_1 = {
   Project: "www.amalk.au",
+  PreviewImage:"project-previews/project-portfolio-website.png",
   Description: "Software Engineering Portfolio",
   FrontEndStack: "JavaScript, HTML, CSS, GitHub Pages",
   BackEndStack: "N/a",

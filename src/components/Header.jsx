@@ -8,7 +8,6 @@ function Header() {
           alt="github Logo"
         />
       </a>{" "}
-      <br></br>
       <a href="https://www.linkedin.com/in/amaldevelops/" target="blank">
         <img
           src="/logos/logo-linkedin.svg"

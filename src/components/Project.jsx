@@ -1,6 +1,7 @@
 function Project(props) {
   const projectInfo = {
     Project: props.Project,
+    PreviewImage:props.PreviewImage,
     Description: props.Description,
     FrontEndStack: props.FrontEndStack,
     BackEndStack: props.BackEndStack,
@@ -14,6 +15,7 @@ function Project(props) {
   return (
     <div className="individualProjectDiv">
       <h2>{projectInfo.Project}</h2>
+      <img src={projectInfo.PreviewImage} alt="Project Preview Image" className="previewImage"/>
       <p>
         <strong></strong> {projectInfo.Description}
       </p>
