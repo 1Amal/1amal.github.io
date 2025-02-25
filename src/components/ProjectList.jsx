@@ -2,7 +2,7 @@ import Project from "./Project";
 
 const Project_1 = {
   Project: "Project 1 : www.amalk.au Software Portfolio",
-  PreviewImage: "project-previews/project-portfolio-website.png",
+  PreviewImage: "public/project-previews/portfolio-website.png",
   Description: "Software Engineering Portfolio",
   FrontEndStack: "React, JavaScript, HTML, CSS, GitHub Pages",
   BackEndStack: "N/a",
@@ -73,7 +73,7 @@ const Project_5 = {
 
 const Project_6 = {
   Project: "Project 6 : Members Only",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "public/project-previews/members-only.png",
   Description:
     "Exclusive membership only site where members can write anonymous posts, developed using NodeJs, Express(Passport,ejs), PostgreSQL",
   FrontEndStack: "EJS (Embedded JavaScript templating), HTML, CSS",
@@ -88,7 +88,7 @@ const Project_6 = {
 
 const Project_7 = {
   Project: "Project 7 : Inventory management",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "public/project-previews/store-inventory.png",
   Description:
     "Inventory Management System built with Node.js, Express, and PostgreSQL, designed to efficiently manage product information and inventory.",
   FrontEndStack: "EJS (Embedded JavaScript templating), HTML, CSS",
@@ -117,7 +117,7 @@ const Project_8 = {
 
 const Project_9 = {
   Project: "Project 9 : Calculator",
-  PreviewImage: "public/project-previews/calculator.jpeg",
+  PreviewImage: "/project-previews/calculator.jpeg",
   Description:
     "This is a simple online calculator built using HTML, CSS, and JavaScript. The calculator provides basic arithmetic operations including addition, subtraction, multiplication, and division. It features a clean and responsive design, making it accessible and user-friendly across different devices. Features Basic Arithmetic Operations: Addition, subtraction, multiplication, and division. Responsive Design: Adapts to different screen sizes and devices. User-Friendly Interface: Clear buttons and display for easy use. Error Handling: Displays error messages for invalid operations, such as division by zero.",
   FrontEndStack: " JavaScript, HTML, CSS",
@@ -131,7 +131,7 @@ const Project_9 = {
 
 const Project_10 = {
   Project: "Project 10 : Etch-a-sketch",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "/project-previews/etch-a-sketch.png",
   Description:
     "Browser version of something between a sketchpad and an Etch-A-Sketch.",
   FrontEndStack: "JavaScript, HTML, CSS",
@@ -145,7 +145,7 @@ const Project_10 = {
 
 const Project_11 = {
   Project: "Project 11 : Tic-tac-toe",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "/project-previews/tic-tac-toe.png",
   Description: "Tic Tac Toe Game developed using JavaScript, HTML and CSS",
   FrontEndStack: "JavaScript, HTML, CSS",
   BackEndStack: " N/a",
@@ -158,7 +158,7 @@ const Project_11 = {
 
 const Project_12 = {
   Project: "Project 12 : Todo list",
-  PreviewImage: "public/project-previews/task-list-app.jpeg",
+  PreviewImage: "/project-previews/task-list-app.jpeg",
   Description:
     " JavaScript, HTML, CSS based To Do list front end using Web Storage API (localStorage) for data persistence.",
   FrontEndStack: "JavaScript, HTML, CSS",
@@ -172,7 +172,7 @@ const Project_12 = {
 
 const Project_13 = {
   Project: "Project 13 : TDD battleship game",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "/project-previews/tdd-battleship.png",
   Description:
     "Implementation of the classic game ‘Battleship’ using TDD (Test Driven Development)",
   FrontEndStack: "JavaScript, HTML, CSS",
@@ -186,7 +186,7 @@ const Project_13 = {
 
 const Project_14 = {
   Project: "Project 14 : Weather App (JS)",
-  PreviewImage: "public/project-previews/weather-js.jpeg",
+  PreviewImage: "/project-previews/weather-js.jpeg",
   Description:
     "User-friendly weather app built with JavaScript, HTML, CSS, Webpack, and a weather API (https://www.weatherapi.com). It allows users to search for locations and displays the current weather conditions, including temperature, weather description.",
   FrontEndStack: "JavaScript, HTML,CSS",
@@ -200,7 +200,7 @@ const Project_14 = {
 
 const Project_15 = {
   Project: "Project 15 : Library catalogue",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "/project-previews/library-catalogue.png",
   Description: "Library Catalogue Made with JavaScript, CSS and HTML",
   FrontEndStack: "JavaScript, CSS, HTML",
   BackEndStack: "N/a",
@@ -213,7 +213,7 @@ const Project_15 = {
 
 const Project_16 = {
   Project: "Project 16 : Professional business website 1",
-  PreviewImage: "public/project-previews/professional-website-1.jpeg",
+  PreviewImage: "/project-previews/professional-website-1.jpeg",
   Description:
     "Wordpress Website designed and developed for a local small business based in Melbourne, Australia",
   FrontEndStack: "WordPress",
@@ -228,7 +228,7 @@ const Project_16 = {
 
 const Project_17 = {
   Project: "Project 17 : Professional business website 2",
-  PreviewImage: "public/project-previews/professional-website-2.jpeg",
+  PreviewImage: "/project-previews/professional-website-2.jpeg",
   Description:
     "Website made for a local business in Melbourne, Australia. Unfortunately company no longer hosts this version on companies Web server. However you can access a live version hosted on my GitHub Pages",
   FrontEndStack: "JavaScript, HTML, CSS / Bootstrap",
@@ -243,7 +243,7 @@ const Project_17 = {
 
 const Project_18 = {
   Project: "Project 18 : Memory card game",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "/project-previews/memory-game.png",
   Description:
     "React based interactive memory game allows players to select cards displaying images from Giphy. The game tracks the current score and the highest score achieved, with cards shuffling randomly with each click.",
   FrontEndStack: "JavaScript, CSS/Flexbox, HTML, Vite",
@@ -257,7 +257,7 @@ const Project_18 = {
 
 const Project_19 = {
   Project: "Project 19 : Shopping Cart",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "project-previews/react-shopping-cart.png",
   Description: "React Based Mock Shopping cart app",
   FrontEndStack:
     "React, React Router for page navigation, FakeStore API for product data, React Testing Library for testing, CSS Modules and CSS Styled Components",
@@ -271,7 +271,7 @@ const Project_19 = {
 
 const Project_20 = {
   Project: "Project 20 : Resume Creator",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "/project-previews/react-resume-creator.png",
   Description:
     "Small React based application where users can input their information and generate a resume which can be printed or saved as a PDF using the browser print dialog.",
   FrontEndStack:
@@ -300,14 +300,14 @@ const Project_21 = {
 
 const Project_22 = {
   Project: "Project 22 : The Odin project curriculum contributions",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "/project-previews/theodinproject.png",
   Description:
     "My Contributions to The open curriculum for learning web development www.theodinproject.com",
   FrontEndStack: "Markdown",
   BackEndStack: "N/a",
   GitHubRepositoryURL:
     "https://github.com/amaldevelops/the-odin-project-curriculum",
-  ProductionSiteURL: "www.theodinproject.com",
+  ProductionSiteURL: "https://www.theodinproject.com",
   Contributors: "Amal Kariyawasam",
   License: "GPL-3.0",
   LastUpdated: "21/02/2025",
