@@ -13,15 +13,47 @@ function Project(props) {
 
   return (
     <div className="individualProjectDiv">
-      <h3>{projectInfo.Project}</h3>
-      <p>{projectInfo.Description}</p>
-      <p>{projectInfo.FrontEndStack}</p>
-      <p>{projectInfo.BackEndStack}</p>
-      <p>{projectInfo.GitHubRepositoryURL}</p>
-      <p>{projectInfo.ProductionSiteURL}</p>
-      <p>{projectInfo.Contributors}</p>
-      <p>{projectInfo.License}</p>
-      <p>{projectInfo.LastUpdated}</p>
+      <h2>{projectInfo.Project}</h2>
+      <p>
+        <strong></strong> {projectInfo.Description}
+      </p>
+
+      <p>
+        <strong>Front End Stack:</strong> {projectInfo.FrontEndStack}
+      </p>
+      <p>
+        <strong>Back End Stack: </strong>
+        {projectInfo.BackEndStack}
+      </p>
+
+      <p>
+        <strong>Contributors: </strong>
+        {projectInfo.Contributors}
+      </p>
+      <p>
+        <strong>License: </strong>
+        {projectInfo.License}
+      </p>
+      <p>
+        <strong>Last Updated: </strong>
+        {projectInfo.LastUpdated}
+      </p>
+
+      <a href={projectInfo.GitHubRepositoryURL} target="_blank">
+        <img
+          src="/logos/logo-github.svg"
+          alt="GitHub Repository URL"
+          className="externalLinkLogos"
+        />
+      </a>
+
+      <a href={projectInfo.ProductionSiteURL} target="_blank">
+        <img
+          src="/logos/logo-cloud.png"
+          alt="Production Site URL"
+          className="externalLinkLogos"
+        />
+      </a>
     </div>
   );
 }

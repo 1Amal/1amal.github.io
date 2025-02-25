@@ -1,7 +1,7 @@
 import Project from "./Project";
 
-const Project1 = {
-  Project: "amaldevelops.github.io",
+const Project_1 = {
+  Project: "www.amalk.au",
   Description: "Software Engineering Portfolio",
   FrontEndStack: "JavaScript, HTML, CSS, GitHub Pages",
   BackEndStack: "N/a",
@@ -12,10 +12,24 @@ const Project1 = {
   LastUpdated: "25/02/2025",
 };
 
+const Project_2 = {
+  Project: "",
+  Description: "",
+  FrontEndStack: "",
+  BackEndStack: "",
+  GitHubRepositoryURL: "",
+  ProductionSiteURL: "",
+  Contributors: "",
+  License: "",
+  LastUpdated: "",
+};
+
 function ProjectList() {
   return (
     <div>
-      <Project {...Project1} />
+      <Project {...Project_1} />
+      <Project {...Project_2} />
+      <Project {...Project_1} />
     </div>
   );
 }

@@ -97,6 +97,7 @@ button:focus-visible {
 .externalLinkLogos {
   width: 70px;
   height: 70px;
+  padding: 5px;
 }
 
 .projectsDiv {
@@ -106,8 +107,7 @@ button:focus-visible {
   padding: 1px;
 }
 
-.individualProjectDiv
-{
+.individualProjectDiv {
   border: 1px solid #dbb6b6;
   margin-top: 10px;
   margin-bottom: 10px;
