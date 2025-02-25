@@ -19,7 +19,7 @@ const fullStackProject_1 = {
 
 const fullStackProject_2 = {
   Project: "Full Stack Project 2 : Weather App (Python)",
-  PreviewImage: "public/project-previews/weather-python.jpeg",
+  PreviewImage: "/project-previews/weather-python.jpeg",
   Description: "Python Flask based Weather App",
   FrontEndStack: "JavaScript, HTML, CSS",
   BackEndStack: "Python, Flask, Pythonanywhere",
@@ -91,7 +91,7 @@ const frontEndProject_4 = {
 
 const frontEndProject_5 = {
   Project: "Front End Project 5 : www.amalk.au Software Portfolio",
-  PreviewImage: "public/project-previews/portfolio-website.png",
+  PreviewImage: "/project-previews/portfolio-website.png",
   Description: "Software Engineering Portfolio",
   FrontEndStack: "React, JavaScript, HTML, CSS, GitHub Pages",
   BackEndStack: "N/a",
@@ -104,7 +104,7 @@ const frontEndProject_5 = {
 
 const frontEndProject_6 = {
   Project: "Front End Project 6 : TechLexicon",
-  PreviewImage: "public/project-previews/techlexicon.jpeg",
+  PreviewImage: "/project-previews/techlexicon.jpeg",
   Description:
     "An accessible, comprehensive reference for Software Engineering, Hardware Engineering, DevOps, Cybersecurity, Linux, AI, and more. This open-source repository is built for the community, licensed under GPL V3.0. Contributions are welcome to expand and improve this shared resource.",
   FrontEndStack: "JavaScript, HTML, CSS, GitHub Pages",
@@ -133,7 +133,7 @@ const frontEndProject_7 = {
 const frontEndProject_8 = {
   Project:
     "Front End Project 8 : www.theodinproject.com Lessons and Projects Tracker",
-  PreviewImage: "public/project-previews/odin-tracker.jpeg",
+  PreviewImage: "/project-previews/odin-tracker.jpeg",
   Description: "JavaScript, HTML, CSS, GitHub Pages",
   FrontEndStack: "JavaScript, HTML, CSS, GitHub Pages",
   BackEndStack: "N/a",
@@ -261,7 +261,7 @@ const frontEndProject_16 = {
 // Back End Projects
 const backEndProject_1 = {
   Project: "Back End Project 1 : Members Only",
-  PreviewImage: "public/project-previews/members-only.png",
+  PreviewImage: "/project-previews/members-only.png",
   Description:
     "Exclusive membership only site where members can write anonymous posts, developed using NodeJs, Express(Passport,ejs), PostgreSQL",
   FrontEndStack: "EJS (Embedded JavaScript templating), HTML, CSS",
@@ -276,7 +276,7 @@ const backEndProject_1 = {
 
 const backEndProject_2 = {
   Project: "Back End Project 2 : Inventory management",
-  PreviewImage: "public/project-previews/store-inventory.png",
+  PreviewImage: "/project-previews/store-inventory.png",
   Description:
     "Inventory Management System built with Node.js, Express, and PostgreSQL, designed to efficiently manage product information and inventory.",
   FrontEndStack: "EJS (Embedded JavaScript templating), HTML, CSS",
