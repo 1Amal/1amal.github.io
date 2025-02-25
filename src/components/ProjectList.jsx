@@ -30,7 +30,7 @@ const Project_2 = {
 
 const Project_3 = {
   Project: "Project 3 : TechLexicon",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "public/project-previews/techlexicon.jpeg",
   Description:
     "An accessible, comprehensive reference for Software Engineering, Hardware Engineering, DevOps, Cybersecurity, Linux, AI, and more. This open-source repository is built for the community, licensed under GPL V3.0. Contributions are welcome to expand and improve this shared resource.",
   FrontEndStack: "JavaScript, HTML, CSS, GitHub Pages",
@@ -44,7 +44,7 @@ const Project_3 = {
 
 const Project_4 = {
   Project: "Project 4 : www.theodinproject.com Lessons and Projects Tracker",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "public/project-previews/odin-tracker.jpeg",
   Description: "JavaScript, HTML, CSS, GitHub Pages",
   FrontEndStack: "JavaScript, HTML, CSS, GitHub Pages",
   BackEndStack: "N/a",
@@ -117,7 +117,7 @@ const Project_8 = {
 
 const Project_9 = {
   Project: "Project 9 : Calculator",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "public/project-previews/calculator.jpeg",
   Description:
     "This is a simple online calculator built using HTML, CSS, and JavaScript. The calculator provides basic arithmetic operations including addition, subtraction, multiplication, and division. It features a clean and responsive design, making it accessible and user-friendly across different devices. Features Basic Arithmetic Operations: Addition, subtraction, multiplication, and division. Responsive Design: Adapts to different screen sizes and devices. User-Friendly Interface: Clear buttons and display for easy use. Error Handling: Displays error messages for invalid operations, such as division by zero.",
   FrontEndStack: " JavaScript, HTML, CSS",
@@ -158,7 +158,7 @@ const Project_11 = {
 
 const Project_12 = {
   Project: "Project 12 : Todo list",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "public/project-previews/task-list-app.jpeg",
   Description:
     " JavaScript, HTML, CSS based To Do list front end using Web Storage API (localStorage) for data persistence.",
   FrontEndStack: "JavaScript, HTML, CSS",
@@ -186,7 +186,7 @@ const Project_13 = {
 
 const Project_14 = {
   Project: "Project 14 : Weather App (JS)",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "public/project-previews/weather-js.jpeg",
   Description:
     "User-friendly weather app built with JavaScript, HTML, CSS, Webpack, and a weather API (https://www.weatherapi.com). It allows users to search for locations and displays the current weather conditions, including temperature, weather description.",
   FrontEndStack: "JavaScript, HTML,CSS",
@@ -213,7 +213,7 @@ const Project_15 = {
 
 const Project_16 = {
   Project: "Project 16 : Professional business website 1",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "public/project-previews/professional-website-1.jpeg",
   Description:
     "Wordpress Website designed and developed for a local small business based in Melbourne, Australia",
   FrontEndStack: "WordPress",
@@ -228,7 +228,7 @@ const Project_16 = {
 
 const Project_17 = {
   Project: "Project 17 : Professional business website 2",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "public/project-previews/professional-website-2.jpeg",
   Description:
     "Website made for a local business in Melbourne, Australia. Unfortunately company no longer hosts this version on companies Web server. However you can access a live version hosted on my GitHub Pages",
   FrontEndStack: "JavaScript, HTML, CSS / Bootstrap",
@@ -287,7 +287,7 @@ const Project_20 = {
 
 const Project_21 = {
   Project: "Project 21 : Weather App (Python)",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "public/project-previews/weather-python.jpeg",
   Description: "Python Flask based Weather App",
   FrontEndStack: "JavaScript, HTML, CSS",
   BackEndStack: "Python, Flask, Pythonanywhere",
