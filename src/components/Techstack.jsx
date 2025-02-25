@@ -1,9 +1,9 @@
 function TechStack() {
   return (
-    <div>
-      <h1>Tech Stack</h1>
+    <div className="techStackDiv">
+      <h2>Tech Stack</h2>
       <div>
-        <h2>Front End</h2>
+        <h3>Front End</h3>
         <img
           src="/logos/logo-js.svg"
           className="techStackLogos"
@@ -29,7 +29,7 @@ function TechStack() {
       </div>
 
       <div>
-        <h2>Back End</h2>
+        <h3>Back End</h3>
         <img
           src="/logos/logo-nodejs.svg"
           className="techStackLogos"
@@ -62,7 +62,7 @@ function TechStack() {
       </div>
 
       <div>
-        <h2>Developer Tools</h2>
+        <h3>Developer Tools</h3>
         <img
           src="/logos/logo-git.svg"
           className="techStackLogos"
@@ -137,7 +137,7 @@ function TechStack() {
       </div>
 
       <div>
-        <h2>Hardware / Electronics</h2>
+        <h3>Hardware / Electronics</h3>
         <img
           src="/logos/logo-raspberryPi.svg"
           className="techStackLogos"

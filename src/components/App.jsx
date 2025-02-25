@@ -1,32 +1,29 @@
-import reactLogo from "../assets/react.svg";
-import viteLogo from "../assets/vite.svg";
 import "../css/App.css";
 
 import Header from "./Header";
 import About from "./About";
-import TechStack from "./Techstack"
+import TechStack from "./Techstack";
 import Project from "./Project";
 import Footer from "./Footer";
 
 function App() {
   return (
     <>
-      <Header />
-
       <div>
-        {/* <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a> */}
+        <Header />
       </div>
-      
-      <About />
-      <TechStack/>
-      <div className="card"></div>
+      <div className="aboutDiv">
+        <About />
+      </div>
+      <div>
+        <TechStack />
+      </div>
 
-      <Project />
+      <div className="projectsDiv">
+        <h2>Projects</h2>
+        <Project />
+      </div>
+
       <Footer />
     </>
   );

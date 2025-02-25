@@ -74,15 +74,36 @@ button:focus-visible {
   text-align: center;
 }
 
+.aboutDiv {
+  border: 2px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1px;
+}
+
+.techStackDiv {
+  border: 2px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1px;
+}
+
 .techStackLogos {
   width: 70px;
   height: 70px;
-  padding:5px;
+  padding: 5px;
 }
 
 .externalLinkLogos {
   width: 70px;
   height: 70px;
+}
+
+.projectsDiv {
+  border: 2px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1px;
 }
 
 .logo {
