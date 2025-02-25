@@ -79,6 +79,11 @@ button:focus-visible {
   height: 50px;
 }
 
+.externalLinkLogos {
+  width: 70px;
+  height: 70px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
