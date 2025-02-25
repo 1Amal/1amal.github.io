@@ -4,6 +4,7 @@ import "../css/App.css";
 
 import Header from "./Header";
 import About from "./About";
+import TechStack from "./Techstack"
 import Project from "./Project";
 import Footer from "./Footer";
 
@@ -13,15 +14,16 @@ function App() {
       <Header />
 
       <div>
-        <a href="https://vite.dev" target="_blank">
+        {/* <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        </a> */}
       </div>
       
       <About />
+      <TechStack/>
       <div className="card"></div>
 
       <Project />
