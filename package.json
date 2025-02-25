@@ -3,7 +3,7 @@
   "private": true,
   "version": "4.0.0",
   "type": "module",
-  "homepage": "https://github.com/amaldevelops/amaldevelops.github.io",
+  "homepage": "https://www.amalk.au",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
