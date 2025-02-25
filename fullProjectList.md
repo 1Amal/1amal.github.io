@@ -19,7 +19,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 ### Project: amaldevelops.github.io
 
 - Description: Software Engineering Portfolio
-- Front End Stack: JavaScript, HTML, CSS, GitHub Pages
+- Front End Stack: React, JavaScript, HTML, CSS, GitHub Pages
 - Back End Stack: N/a
 - GitHub Repository URL: https://github.com/amaldevelops/amaldevelops.github.io
 - Production Site URL: https://www.amalk.au
