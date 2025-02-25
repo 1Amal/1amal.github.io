@@ -53,10 +53,102 @@ function TechStack() {
           className="techStackLogos"
           alt="Prisma Logo"
         ></img>
+
+        <img
+          src="/logos/logo-python.svg"
+          className="techStackLogos"
+          alt="Python Logo"
+        ></img>
       </div>
 
       <div>
-        <h2>Tools</h2>
+        <h2>Developer Tools</h2>
+        <img
+          src="/logos/logo-git.svg"
+          className="techStackLogos"
+          alt="Git Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-linux.svg"
+          className="techStackLogos"
+          alt="Linux Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-ubuntu.svg"
+          className="techStackLogos"
+          alt="Ubuntu Linux Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-bash.svg"
+          className="techStackLogos"
+          alt="Bash Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-vsCode.svg"
+          className="techStackLogos"
+          alt="VS Code Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-firefox.svg"
+          className="techStackLogos"
+          alt="Firefox Tools Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-chrome.svg"
+          className="techStackLogos"
+          alt="Chrome Developer Tools Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-jest.svg"
+          className="techStackLogos"
+          alt="Jest Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-webpack.svg"
+          className="techStackLogos"
+          alt="Webpack Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-npm.svg"
+          className="techStackLogos"
+          alt="NPM Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-vite.svg"
+          className="techStackLogos"
+          alt="Vite Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-postman.svg"
+          className="techStackLogos"
+          alt="postman Logo"
+        ></img>
+      </div>
+
+      <div>
+        <h2>Hardware / Electronics</h2>
+        <img
+          src="/logos/logo-raspberryPi.svg"
+          className="techStackLogos"
+          alt="RaspberryPi Logo"
+        ></img>
+
+        <img
+          src="/logos/logo-arduino.svg"
+          className="techStackLogos"
+          alt="Arduino Logo"
+        ></img>
       </div>
     </div>
   );
