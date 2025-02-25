@@ -25,7 +25,7 @@ Following list contains GitHub Repository name, GitHub Repository URL, Descripti
 - Production Site URL: https://www.amalk.au
 - Contributors: Amal Kariyawasam
 - License: GPL-3.0
-- Last Updated: 21/02/2025
+- Last Updated: 25/02/2025
 
 ### Project: full-stack-blog
 
