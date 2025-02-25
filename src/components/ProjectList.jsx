@@ -335,7 +335,21 @@ const backEndProject_4 = {
 function ProjectList() {
   return (
     <div>
-      <div className="frontEndProjects">
+      <h2>Projects</h2>
+
+      <p>
+        <strong>Total Front End Projects: 16 </strong>
+      </p>
+
+      <p>
+        <strong>Total Back End Projects: 4 </strong>
+      </p>
+      <p>
+        <strong>Total Full Stack Projects: 2 </strong>
+      </p>
+
+      <h3>Total Projects: 22</h3>
+      <div className="frontEndProjectsDiv">
         <Project {...frontEndProject_1} />
         <Project {...frontEndProject_2} />
         <Project {...frontEndProject_3} />
@@ -354,14 +368,14 @@ function ProjectList() {
         <Project {...frontEndProject_16} />
       </div>
 
-      <div className="backEndProjects">
+      <div className="backEndProjectsDiv">
         <Project {...backEndProject_1} />
         <Project {...backEndProject_2} />
         <Project {...backEndProject_3} />
         <Project {...backEndProject_4} />
       </div>
 
-      <div className="fullStackProjects">
+      <div className="fullStackProjectsDiv">
         <Project {...fullStackProject_1} />
         <Project {...fullStackProject_2} />
       </div>

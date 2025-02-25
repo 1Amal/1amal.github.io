@@ -102,15 +102,40 @@ button:focus-visible {
 }
 
 .projectsDiv {
-  border: 2px solid #000000;
+  /* border: 2px solid #000000; */
+  background-color: #f1f1e9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1px;
+}
+
+.frontEndProjectsDiv {
+  border: 1px solid #070707;
+  background-color: #f9e56f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1px;
+}
+
+.backEndProjectsDiv {
+  border: 1px solid #070707;
+  background-color: #73ec77;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1px;
+}
+
+.fullStackProjectsDiv {
+  border: 1px solid #070707;
+  background-color: #73d2ec;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 1px;
 }
 
 .individualProjectDiv {
-  border: 1px solid #eed813;
-  background-color: #ffc852;
+  /* border: 1px solid #090909; */
+  /* background-color: #ffc852; */
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 1px;
@@ -119,7 +144,6 @@ button:focus-visible {
 .previewImage {
   width: 300px;
   height: 300px;
-  
 }
 
 .logo {

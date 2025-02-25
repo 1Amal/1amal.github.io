@@ -3,7 +3,7 @@ import "../css/App.css";
 import Header from "./Header";
 import About from "./About";
 import TechStack from "./Techstack";
-import ProjectList from "./ProjectList"
+import ProjectList from "./ProjectList";
 import Footer from "./Footer";
 
 function App() {
@@ -20,7 +20,6 @@ function App() {
       </div>
 
       <div className="projectsDiv">
-        <h2>Projects</h2>
         <ProjectList />
       </div>
 
